@@ -1,0 +1,628 @@
+[
+  {
+    "DisplayName": "基本情報 (ビュー)",
+    "Name": "_ms_basicinformation_views",
+    "RelatedEntityName": "基本情報",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0ae156c5-e12c-4422-a76c-03f70cc31ef8": "アクティブな基本情報",
+      "4e6b262b-b794-42d8-bc79-c5a4fc6a3e83": "非アクティブな基本情報",
+      "7091c409-e0be-ec11-983e-002248683086": "01_公開中のフォーム一覧",
+      "84c8e6d6-02b0-49c1-845e-bcef3f67be45": "基本情報関連ビュー",
+      "be6954b1-d77c-4e1d-b05b-f9f5f122a097": "基本情報検索ダイアログ ビュー",
+      "c34b3a88-05b6-43ac-8ccb-3f50e08c58bc": "基本情報の高度な検索ビュー"
+    }
+  },
+  {
+    "DisplayName": "状態 (基本情報)",
+    "Name": "ms_basicinformation_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "アクティブ",
+      "1": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ステータス (基本情報)",
+    "Name": "ms_basicinformation_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "アクティブ",
+      "2": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "支社",
+    "Name": "ms_branchcompany",
+    "OptionSetInfoNameMapping": {
+      "124700000": "独立会社",
+      "124700001": "法人課"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_branchcompany",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_branchcompany",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "支店",
+    "Name": "ms_branchoffice",
+    "OptionSetInfoNameMapping": {
+      "124700000": "お客様サービス課",
+      "124700001": "お客様相談課・取引先課",
+      "124700002": "公務課"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_branchoffice",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_branchoffice",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "小カテゴリ",
+    "Name": "ms_childcategory",
+    "OptionSetInfoNameMapping": {
+      "124700000": "拠点情報",
+      "124700001": "サンプルカテゴリA",
+      "124700002": "サンプルカテゴリB"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_childcategory",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_childcategory",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "サイクル指定",
+    "Name": "ms_cycleselect",
+    "OptionSetInfoNameMapping": {
+      "124700000": "サイクル指定あり",
+      "124700001": "サイクル指定なし"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_cycleselect",
+        "OptionSetReferenceEntityName": "基本情報"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "ms_cycleselect",
+        "OptionSetReferenceEntityName": "サイクル頻度"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_cycleselect",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "文書作成対象部室店",
+    "Name": "ms_documentcreatestore",
+    "OptionSetInfoNameMapping": {
+      "124700000": "全行（国内のみ）",
+      "124700001": "個別",
+      "124700002": "店番指定ファイル"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_documentcreatestore",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_documentcreatestore",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "文書・受付",
+    "Name": "ms_documentreception",
+    "OptionSetInfoNameMapping": {
+      "124700000": "部店長以上",
+      "124700001": "副支店長以上",
+      "124700002": "課長以上",
+      "124700003": "役席者以上",
+      "124700004": "全員",
+      "124700005": "ネットワーク活用担当者",
+      "124700006": "情報資産利用管理者",
+      "124700007": "情報セキュリティ管理者",
+      "124700008": "なし"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_documentcreateuser",
+        "OptionSetReferenceEntityName": "基本情報"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "ms_receptionapprovaluser",
+        "OptionSetReferenceEntityName": "基本情報"
+      },
+      "OptionSetReferenceItem2": {
+        "OptionSetReferenceColumnName": "ms_receptioncheckuser",
+        "OptionSetReferenceEntityName": "基本情報"
+      },
+      "OptionSetReferenceItem3": {
+        "OptionSetReferenceColumnName": "ms_documentapprovaluser",
+        "OptionSetReferenceEntityName": "基本情報"
+      },
+      "OptionSetReferenceItem4": {
+        "OptionSetReferenceColumnName": "ms_documentcheckuser",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_documentcreateuser",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "状況",
+    "Name": "ms_formstatus",
+    "OptionSetInfoNameMapping": {
+      "124700000": "ドラフト",
+      "124700001": "承認待ち",
+      "124700002": "公開前",
+      "124700003": "公開中",
+      "124700004": "公開終了"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_formstatus",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_formstatus",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "出張時を含む (基本情報)",
+    "Name": "ms_ms_basicinformation_businesstripflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_businesstripflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_businesstripflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "完了通知要否 (基本情報)",
+    "Name": "ms_ms_basicinformation_completenotifycationflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_completenotifycationflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_completenotifycationflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "サイクル指定（削除） (基本情報)",
+    "Name": "ms_ms_basicinformation_cyclespecification",
+    "OptionSetInfoNameMapping": {
+      "0": "サイクル指定なし",
+      "1": "サイクル指定あり"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_cyclespecification",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_cyclespecification",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "文書回付機能 (基本情報)",
+    "Name": "ms_ms_basicinformation_documentrefferingflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_documentrefferingflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_documentrefferingflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "文書閲覧権限 (基本情報)",
+    "Name": "ms_ms_basicinformation_documentviewpermission",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_documentviewpermission",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_documentviewpermission",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "フォーム一覧表示 (基本情報)",
+    "Name": "ms_ms_basicinformation_formlistview",
+    "OptionSetInfoNameMapping": {
+      "0": "非表示",
+      "1": "表示"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_formlistview",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_formlistview",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ローン推進部を含む (基本情報)",
+    "Name": "ms_ms_basicinformation_loanimplementationflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_loanimplementationflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_loanimplementationflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "名阪を含む (基本情報)",
+    "Name": "ms_ms_basicinformation_othercityflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_othercityflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_othercityflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "利用終了日フラグ (基本情報)",
+    "Name": "ms_ms_basicinformation_yescycleenddayflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_yescycleenddayflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_yescycleenddayflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "利用終了月末フラグ (基本情報)",
+    "Name": "ms_ms_basicinformation_yescycleendmonthendflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_yescycleendmonthendflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_yescycleendmonthendflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "利用終了月初フラグ (基本情報)",
+    "Name": "ms_ms_basicinformation_yescycleendmonthstartflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_yescycleendmonthstartflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_yescycleendmonthstartflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "利用開始日フラグ (基本情報)",
+    "Name": "ms_ms_basicinformation_yescyclestartdayflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_yescyclestartdayflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_yescyclestartdayflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "利用開始月末フラグ (基本情報)",
+    "Name": "ms_ms_basicinformation_yescyclestartmonthendflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_yescyclestartmonthendflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_yescyclestartmonthendflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "利用開始月初フラグ (基本情報)",
+    "Name": "ms_ms_basicinformation_yescyclestartonceflg",
+    "OptionSetInfoNameMapping": {
+      "0": "いいえ",
+      "1": "はい"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_yescyclestartmonthstartflg",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_yescyclestartmonthstartflg",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "大カテゴリ",
+    "Name": "ms_parentcategory",
+    "OptionSetInfoNameMapping": {
+      "124700000": "拠点運営",
+      "124700001": "サンプルカテゴリA",
+      "124700002": "サンプルカテゴリB"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_parentcategory",
+        "OptionSetReferenceEntityName": "基本情報"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ms_parentcategory",
+    "RelatedEntityName": "基本情報",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "ms_basicinformations",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "ms_basicinformation",
+    "MaxGetRowsCount": 500,
+    "Name": "基本情報",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "所有者",
+      "createdby": "作成者",
+      "createdon": "作成日",
+      "createdonbehalfby": "作成者 (代理)",
+      "importsequencenumber": "インポート シーケンス番号",
+      "modifiedby": "修正者",
+      "modifiedon": "修正日",
+      "modifiedonbehalfby": "修正者 (代理)",
+      "ms_approvaluser": "承認者",
+      "ms_basicinformation_AsyncOperations": "システム ジョブ ",
+      "ms_basicinformation_BulkDeleteFailures": "一括削除の失敗 ",
+      "ms_basicinformation_DuplicateBaseRecord": "レコードの重複  (ms_basicinformation_DuplicateBaseRecord)",
+      "ms_basicinformation_DuplicateMatchingRecord": "レコードの重複  (ms_basicinformation_DuplicateMatchingRecord)",
+      "ms_basicinformation_FileAttachments": "FileAttachments",
+      "ms_basicinformation_MailboxTrackingFolders": "メールボックス自動追跡フォルダー",
+      "ms_basicinformation_PrincipalObjectAttributeAccesses": "フィールド共有 ",
+      "ms_basicinformation_ProcessSession": "プロセス セッション",
+      "ms_basicinformation_SyncErrors": "同期エラー",
+      "ms_basicinformationid": "基本情報",
+      "ms_branchcompany": "支社",
+      "ms_branchoffice": "支店",
+      "ms_businesstripflg": "出張時を含む",
+      "ms_childcategory": "小カテゴリ",
+      "ms_completenotifycationflg": "完了通知要否",
+      "ms_createuser": "起票者",
+      "ms_cycleFrequency": "頻度",
+      "ms_cycleselect": "サイクル指定",
+      "ms_cyclespecification": "サイクル指定（削除）",
+      "ms_department": "本部",
+      "ms_documentapprovaluser": "文書承認者",
+      "ms_documentcheckuser": "文書検印者",
+      "ms_documentcreatestore": "文書作成対象部室店",
+      "ms_documentcreateuser": "文書作成者",
+      "ms_documentform_formNo_ms_BasicInformatio": "文書入力",
+      "ms_documentrefferingflg": "文書回付機能",
+      "ms_documentviewpermission": "文書閲覧権限",
+      "ms_formenactmentgroup": "フォーム制定課・グループ",
+      "ms_formenactmentstore": "フォーム制定部室店",
+      "ms_formItemSetting_parentform_ms_BasicInf": "項目定義",
+      "ms_formlistview": "フォーム一覧表示",
+      "ms_formname": "フォーム名",
+      "ms_formperson": "対応者",
+      "ms_formstatus": "状況",
+      "ms_loanimplementationflg": "ローン推進部を含む",
+      "ms_name": "フォームNo",
+      "ms_nocycleenddate": "利用終了日時",
+      "ms_nocyclestartdate": "利用開始日時",
+      "ms_othercityflg": "名阪を含む",
+      "ms_parentcategory": "大カテゴリ",
+      "ms_receprionuser": "受付担当者",
+      "ms_receptionapprovaluser": "受付承認者",
+      "ms_receptioncheckuser": "受付検印者",
+      "ms_receptionstore": "受付部室店",
+      "ms_receptionstorenumber": "受付部室店数",
+      "ms_reference": "照会先",
+      "ms_reportno": "報告書番号",
+      "ms_requestday": "催促日",
+      "ms_summary": "概要",
+      "ms_template": "テンプレート",
+      "ms_yescyclecompleteyearmonth": "利用満了年月",
+      "ms_yescycleendbusinessday": "利用終了営業日",
+      "ms_yescycleendday": "利用終了日",
+      "ms_yescycleenddayflg": "利用終了日フラグ",
+      "ms_yescycleendmonthendflg": "利用終了月末フラグ",
+      "ms_yescycleendmonthstartflg": "利用終了月初フラグ",
+      "ms_yescycleendtime": "利用終了時刻",
+      "ms_yescycleendyearmonth": "利用終了年月",
+      "ms_yescyclestartbusinessday": "利用開始営業日",
+      "ms_yescyclestartday": "利用開始日",
+      "ms_yescyclestartdayflg": "利用開始日フラグ",
+      "ms_yescyclestartmonthendflg": "利用開始月末フラグ",
+      "ms_yescyclestartmonthstartflg": "利用開始月初フラグ",
+      "ms_yescyclestarttime": "利用開始時刻",
+      "ms_yescyclestartyearmonth": "利用開始年月",
+      "overriddencreatedon": "レコード作成日",
+      "owningbusinessunit": "所属部署",
+      "owningteam": "所有チーム",
+      "owninguser": "所有ユーザー",
+      "statecode": "状態",
+      "statuscode": "ステータス",
+      "timezoneruleversionnumber": "タイム ゾーン規則のバージョン番号",
+      "utcconversiontimezonecode": "UTC 変換タイム ゾーン コード",
+      "versionnumber": "バージョン番号"
+    },
+    "PreferredName": "基本情報",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

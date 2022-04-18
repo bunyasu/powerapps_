@@ -1,0 +1,98 @@
+[
+  {
+    "DisplayName": "本部 (ビュー)",
+    "Name": "_ms_department_views",
+    "RelatedEntityName": "本部",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2ba221cf-9037-4ae4-8a59-c6f37c12af8e": "本部検索ダイアログ ビュー",
+      "7f4a0ab3-2011-4c05-ba33-d71eb2bf5c54": "非アクティブな本部",
+      "b1296ed6-ed87-4038-a673-ad19406e4a39": "アクティブな本部",
+      "d1a5a459-fbaf-4e93-936f-85e62d37b1e4": "本部の高度な検索ビュー",
+      "f941114d-4d87-4766-b93d-1b36407f38a1": "本部関連ビュー"
+    }
+  },
+  {
+    "DisplayName": "状態 (本部)",
+    "Name": "ms_department_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "アクティブ",
+      "1": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "本部"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "本部",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ステータス (本部)",
+    "Name": "ms_department_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "アクティブ",
+      "2": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "本部"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "本部",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "ms_departments",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "ms_department",
+    "MaxGetRowsCount": 500,
+    "Name": "本部",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "所有者",
+      "createdby": "作成者",
+      "createdon": "作成日",
+      "createdonbehalfby": "作成者 (代理)",
+      "importsequencenumber": "インポート シーケンス番号",
+      "modifiedby": "修正者",
+      "modifiedon": "修正日",
+      "modifiedonbehalfby": "修正者 (代理)",
+      "ms_BasicInformation_department_ms_departm": "基本情報",
+      "ms_department_AsyncOperations": "システム ジョブ ",
+      "ms_department_BulkDeleteFailures": "一括削除の失敗 ",
+      "ms_department_DuplicateBaseRecord": "レコードの重複  (ms_department_DuplicateBaseRecord)",
+      "ms_department_DuplicateMatchingRecord": "レコードの重複  (ms_department_DuplicateMatchingRecord)",
+      "ms_department_MailboxTrackingFolders": "メールボックス自動追跡フォルダー",
+      "ms_department_PrincipalObjectAttributeAccesses": "フィールド共有 ",
+      "ms_department_ProcessSession": "プロセス セッション",
+      "ms_department_SyncErrors": "同期エラー",
+      "ms_departmentid": "本部",
+      "ms_name": "本部名",
+      "overriddencreatedon": "レコード作成日",
+      "owningbusinessunit": "所属部署",
+      "owningteam": "所有チーム",
+      "owninguser": "所有ユーザー",
+      "statecode": "状態",
+      "statuscode": "ステータス",
+      "timezoneruleversionnumber": "タイム ゾーン規則のバージョン番号",
+      "utcconversiontimezonecode": "UTC 変換タイム ゾーン コード",
+      "versionnumber": "バージョン番号"
+    },
+    "PreferredName": "本部",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

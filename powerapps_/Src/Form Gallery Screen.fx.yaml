@@ -1,0 +1,549 @@
+"'Form Gallery Screen' As screen":
+
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =175
+        Items: =基本情報
+        Width: =1366
+        X: =0
+        Y: =525
+        ZIndex: =1
+
+        "'フォームNo列(_C)1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="フォームNo"
+            FieldName: ="ms_name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.フォームNo
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        "'作成日列(_C)1' As dataTableColumn.dateTimeColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="作成日"
+            FieldName: ="createdon"
+            FieldVariantName: ="dateTimeColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =Text(ThisItem.作成日,DateTimeFormat.LongDateTime)
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        "'報告書番号列(_C)1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="報告書番号"
+            FieldName: ="ms_reportno"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.報告書番号
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+        "'大カテゴリ列(_C)1' As dataTableColumn.complexOptionSetColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="大カテゴリ"
+            FieldName: ="ms_parentcategory"
+            FieldVariantName: ="complexOptionSetColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.大カテゴリ
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+        "'小カテゴリ列(_C)1' As dataTableColumn.complexOptionSetColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="小カテゴリ"
+            FieldName: ="ms_childcategory"
+            FieldVariantName: ="complexOptionSetColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.小カテゴリ
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        "'フォーム名列(_C)1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="フォーム名"
+            FieldName: ="ms_formname"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.フォーム名
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        "'作成者列(_C)1' As dataTableColumn.complexTypeColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="作成者"
+            FieldName: ="createdby"
+            FieldVariantName: ="complexTypeColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.作成者.氏名
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+        "'文書作成対象部室店列(_C)1' As dataTableColumn.complexOptionSetColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="文書作成対象部室店"
+            FieldName: ="ms_documentcreatestore"
+            FieldVariantName: ="complexOptionSetColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.文書作成対象部室店
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+        "'利用終了日列(_C)1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="利用終了日"
+            FieldName: ="ms_yescycleendday"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.利用終了日
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =9
+
+        "'状況列(_C)1' As dataTableColumn.complexOptionSetColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="状況"
+            FieldName: ="ms_formstatus"
+            FieldVariantName: ="complexOptionSetColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =10
+            Text: =ThisItem.状況
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =10
+
+    Button2 As button:
+        OnSelect: |-
+            =Concurrent(
+                ClearCollect(
+                    col_formItem,
+                    {
+                        order: 1,
+                        contents: "",
+                        required: false,
+                        delete: false,
+                        csv: false,
+                        type: "Yes/No形式",
+                        num: 2,
+                        limitCount: 0,
+                        limitType: "",
+                        unique:GUID("")
+                    }
+                ),
+                ClearCollect(
+                    col_selectItem,
+                    {
+                        name: "",
+                        order: 0,
+                        id: 0,
+                        unique:GUID("")
+                    }
+                ),
+                NewForm(Frm_BasicInformation);
+            );
+            Navigate('Basic Information Form Screen', ScreenTransition.Fade);
+        Text: ="新規作成"
+        X: =603
+        Y: =435
+        ZIndex: =2
+
+    Button2_1 As button:
+        OnSelect: |-
+            =Clear(col_formItem);Clear(col_selectItem);
+            ForAll(
+                Filter(
+                    項目定義,
+                    親フォーム.フォームNo = DataTable1.Selected.フォームNo
+                ) As formItem,
+                Collect(
+                    col_formItem,
+                    {
+                        order: formItem.項目番号,
+                        contents: formItem.内容,
+                        required: If(
+                            formItem.必須 = '必須 (項目定義)'.必須,
+                            true,
+                            false
+                        ),
+                        delete: false,
+                        csv: If(
+                            formItem.CSV出力項目 = 'CSV出力項目 (項目定義)'.はい,
+                            true,
+                            false
+                        ),
+                        type: Text(formItem.項目形態),
+                        num: formItem.選択数,
+                        limitCount: formItem.選択数制御,
+                        limitType: Text(formItem.選択肢制御タイプ),
+                        unique:formItem.項目ID
+                    }
+                );
+                ForAll(
+                    Filter(
+                        選択肢列,
+                        親項目.項目定義 = formItem.項目定義
+                    ) As formSelectItem,
+                    Collect(
+                        col_selectItem,
+                        {
+                            name: formSelectItem.選択内容,
+                            order: formItem.項目番号,
+                            id: formSelectItem.選択順序,
+                            unique:formSelectItem.選択肢ID
+                        }
+                    )
+                )
+            );
+            Navigate(
+                'Basic Information Form Screen',
+                ScreenTransition.Fade
+            )
+        Text: ="確認・承認"
+        X: =603
+        Y: =717
+        ZIndex: =3
+
+    lbl_HeaderFGS As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        Height: =77
+        PaddingLeft: =100
+        Size: =25
+        Text: ="作成フォーム一覧"
+        Width: =1366
+        ZIndex: =4
+
+    Icon1 As icon.DocumentwithContent:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.View
+        Icon: =Icon.Journal
+        X: =16
+        Y: =6
+        ZIndex: =5
+
+    "'Grp Filter Document' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =-132
+        ZIndex: =19
+
+        Rectangle1_1 As rectangle:
+            Fill: =RGBA(255, 255, 143, 1)
+            Height: =327
+            Width: =1366
+            Y: =83
+            ZIndex: =6
+
+        Lbl_Form_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(232, 184, 42, 1)
+            Height: =43
+            PaddingLeft: =100
+            Text: ="絞込み"
+            Width: =1366
+            Y: =83
+            ZIndex: =7
+
+        Icon2_1 As icon.Search:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =43
+            Icon: =Icon.Search
+            Width: =86
+            Y: =83
+            ZIndex: =8
+
+        Container4 As groupContainer:
+            Height: =40
+            Width: =600
+            X: =741
+            Y: =276
+            ZIndex: =9
+
+            Label3_23 As label:
+                Text: ="利用終了日："
+                ZIndex: =1
+
+            Container1_2 As groupContainer.manualLayoutContainer:
+                Height: =40
+                Width: =450
+                X: =150
+                ZIndex: =2
+
+                Label3_24 As label:
+                    Text: ="From："
+                    Width: =75
+                    ZIndex: =1
+
+                DatePicker1_6 As datepicker:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    IconBackground: =RGBA(0, 0, 0, 1)
+                    Size: =11
+                    Width: =159
+                    X: =75
+                    ZIndex: =2
+
+                Label3_25 As label:
+                    Text: ="To："
+                    Width: =50
+                    X: =234
+                    ZIndex: =3
+
+                DatePicker1_7 As datepicker:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    Height: =39
+                    IconBackground: =RGBA(0, 0, 0, 1)
+                    Size: =11
+                    Width: =159
+                    X: =284
+                    Y: =1
+                    ZIndex: =4
+
+        Container5 As groupContainer:
+            Height: =40
+            Width: =600
+            X: =741
+            Y: =227
+            ZIndex: =10
+
+            Label3_22 As label:
+                Text: ="利用開始日："
+                ZIndex: =1
+
+            Container1_3 As groupContainer.manualLayoutContainer:
+                Height: =40
+                Width: =450
+                X: =150
+                ZIndex: =2
+
+                Label3_26 As label:
+                    Text: ="From："
+                    Width: =75
+                    ZIndex: =1
+
+                DatePicker1_8 As datepicker:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    IconBackground: =RGBA(0, 0, 0, 1)
+                    Size: =11
+                    Width: =159
+                    X: =75
+                    ZIndex: =2
+
+                Label3_27 As label:
+                    Text: ="To："
+                    Width: =50
+                    X: =234
+                    ZIndex: =3
+
+                DatePicker1_9 As datepicker:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    Height: =39
+                    IconBackground: =RGBA(0, 0, 0, 1)
+                    Size: =11
+                    Width: =159
+                    X: =284
+                    Y: =1
+                    ZIndex: =4
+
+        Container6 As groupContainer:
+            Height: =40
+            Width: =350
+            X: =741
+            Y: =176
+            ZIndex: =11
+
+            Label3_21 As label:
+                Text: ="小カテゴリ："
+                ZIndex: =1
+
+            Dropdown1_5 As dropdown:
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                Items: =Choices(小カテゴリ)
+                SelectionFill: =RGBA(0, 0, 0, 1)
+                Width: =185
+                X: =150
+                ZIndex: =2
+
+        Container7 As groupContainer:
+            Height: =50
+            Width: =350
+            X: =741
+            Y: =126
+            ZIndex: =12
+
+            Label3_20 As label:
+                Text: ="フォーム名："
+                Y: =5
+                ZIndex: =1
+
+            TextInput1_9 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: =""
+                Width: =185
+                X: =150
+                Y: =5
+                ZIndex: =2
+
+        Container8 As groupContainer:
+            Height: =50
+            X: =16
+            Y: =335
+            ZIndex: =13
+
+            Label3_19 As label:
+                Text: ="絞り込んだ内容を"
+                Y: =5
+                ZIndex: =1
+
+            Dropdown1_4 As dropdown:
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                Items: =["利用終了日の昇順"]
+                SelectionFill: =RGBA(0, 0, 0, 1)
+                X: =150
+                Y: =5
+                ZIndex: =2
+
+        Container9 As groupContainer:
+            Height: =50
+            Width: =415
+            X: =16
+            Y: =285
+            ZIndex: =14
+
+            Label3_18 As label:
+                Text: ="フォーム制定部室店番："
+                Width: =215
+                Y: =5
+                ZIndex: =1
+
+            TextInput1_8 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: =""
+                Width: =185
+                X: =215
+                Y: =5
+                ZIndex: =2
+
+        Container10 As groupContainer:
+            Height: =50
+            Width: =375
+            X: =16
+            Y: =231
+            ZIndex: =15
+
+            Label3_17 As label:
+                Text: ="文書作成部室店番："
+                Width: =175
+                Y: =5
+                ZIndex: =1
+
+            TextInput1_7 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: =""
+                Width: =185
+                X: =175
+                Y: =5
+                ZIndex: =2
+
+        Container11 As groupContainer:
+            Height: =50
+            X: =16
+            Y: =177
+            ZIndex: =16
+
+            Label3_16 As label:
+                Text: ="大カテゴリ："
+                Y: =5
+                ZIndex: =1
+
+            Dropdown1_3 As dropdown:
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronFill: =RGBA(0, 0, 0, 1)
+                Items: =Choices(大カテゴリ)
+                SelectionFill: =RGBA(0, 0, 0, 1)
+                X: =150
+                Y: =5
+                ZIndex: =2
+
+        Container12 As groupContainer:
+            Height: =50
+            Width: =350
+            X: =366
+            Y: =126
+            ZIndex: =17
+
+            Label3_11 As label:
+                Text: ="報告書番号："
+                Y: =5
+                ZIndex: =1
+
+            TextInput1_6 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: =""
+                Width: =185
+                X: =150
+                Y: =5
+                ZIndex: =2
+
+        Container13 As groupContainer:
+            Height: =50
+            Width: =350
+            X: =16
+            Y: =127
+            ZIndex: =18
+
+            Label3_10 As label:
+                Text: ="フォームNo："
+                Y: =5
+                ZIndex: =1
+
+            TextInput1_5 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: =""
+                Width: =185
+                X: =150
+                Y: =5
+                ZIndex: =2
+

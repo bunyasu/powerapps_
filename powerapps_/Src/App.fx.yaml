@@ -1,0 +1,30 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |
+        =Concurrent(
+            ClearCollect(
+                col_formItem,
+                {
+                    order: 1,
+                    contents: "",
+                    required: false,
+                    delete: false,
+                    csv: false,
+                    type: "Yes/No形式",
+                    num: 2,
+                    limitCount: 0,
+                    limitType: "",
+                    unique:GUID("")
+                }
+            ),
+            ClearCollect(
+                col_selectItem,
+                {
+                    name: "",
+                    order: 0,
+                    id: 0,
+                    unique:GUID("")
+                }
+            )
+        );
+

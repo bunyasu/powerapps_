@@ -1,0 +1,2719 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
+  "runs": [
+    {
+      "columnKind": "utf16CodeUnits",
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "results": [
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard1_1.Arr_BackBIFS.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard1_1.Arr_BackBIFS.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard1_1.Arr_BackBIFS"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard1_1.Arr_BackBIFS.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard1_1.Arr_BackBIFS.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard1_1.Arr_BackBIFS"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.報告書番号_DataCard1.DataCardValue49.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.報告書番号_DataCard1.DataCardValue49.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.報告書番号_DataCard1.DataCardValue49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム名_DataCard1.DataCardValue8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム名_DataCard1.DataCardValue8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム名_DataCard1.DataCardValue8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.大カテゴリ_DataCard1.DataCardValue32.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.大カテゴリ_DataCard1.DataCardValue32.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.大カテゴリ_DataCard1.DataCardValue32"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.小カテゴリ_DataCard1.DataCardValue34.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.小カテゴリ_DataCard1.DataCardValue34.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.小カテゴリ_DataCard1.DataCardValue34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム一覧表示_DataCard1.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム一覧表示_DataCard1.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム一覧表示_DataCard1.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.サイクル指定_DataCard2.DataCardValue50.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.サイクル指定_DataCard2.DataCardValue50.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.サイクル指定_DataCard2.DataCardValue50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.頻度_DataCard1.DataCardValue48.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.頻度_DataCard1.DataCardValue48.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.頻度_DataCard1.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.DateValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.DateValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.DateValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.HourValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.HourValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.HourValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.MinuteValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.MinuteValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日時_DataCard1.MinuteValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.DateValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.DateValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.DateValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.HourValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.HourValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.HourValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.MinuteValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.MinuteValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日時_DataCard1.MinuteValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日フラグ_DataCard1.DataCardValue22.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日フラグ_DataCard1.DataCardValue22.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日フラグ_DataCard1.DataCardValue22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始月末フラグ_DataCard1.DataCardValue25.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始月末フラグ_DataCard1.DataCardValue25.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始月末フラグ_DataCard1.DataCardValue25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日_DataCard1.DataCardValue21.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日_DataCard1.DataCardValue21.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始日_DataCard1.DataCardValue21"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始時刻_DataCard1.DataCardValue23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始時刻_DataCard1.DataCardValue23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始時刻_DataCard1.DataCardValue23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了月初フラグ_DataCard1.DataCardValue17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了月初フラグ_DataCard1.DataCardValue17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了月初フラグ_DataCard1.DataCardValue17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了年月_DataCard1.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了年月_DataCard1.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了年月_DataCard1.DataCardValue13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了営業日_DataCard1.DataCardValue12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了営業日_DataCard1.DataCardValue12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了営業日_DataCard1.DataCardValue12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.DateValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.DateValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.DateValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.HourValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.HourValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.HourValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.MinuteValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.MinuteValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用満了年月_DataCard1.MinuteValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.催促日_DataCard1.DataCardValue10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.催促日_DataCard1.DataCardValue10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.催促日_DataCard1.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始月初フラグ_DataCard1.DataCardValue24.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始月初フラグ_DataCard1.DataCardValue24.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始月初フラグ_DataCard1.DataCardValue24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始年月_DataCard1.DataCardValue20.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始年月_DataCard1.DataCardValue20.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始年月_DataCard1.DataCardValue20"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始営業日_DataCard1.DataCardValue19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始営業日_DataCard1.DataCardValue19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用開始営業日_DataCard1.DataCardValue19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日フラグ_DataCard1.DataCardValue15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日フラグ_DataCard1.DataCardValue15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日フラグ_DataCard1.DataCardValue15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了月末フラグ_DataCard1.DataCardValue18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了月末フラグ_DataCard1.DataCardValue18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了月末フラグ_DataCard1.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日_DataCard1.DataCardValue14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日_DataCard1.DataCardValue14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了日_DataCard1.DataCardValue14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了時刻_DataCard1.DataCardValue16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了時刻_DataCard1.DataCardValue16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.利用終了時刻_DataCard1.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム制定部室店_DataCard1.DataCardValue7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム制定部室店_DataCard1.DataCardValue7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.フォーム制定部室店_DataCard1.DataCardValue7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.'フォーム制定課・グループ_DataCard1'.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.'フォーム制定課・グループ_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.'フォーム制定課・グループ_DataCard1'.DataCardValue5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.起票者_DataCard1.DataCardValue47.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.起票者_DataCard1.DataCardValue47.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.起票者_DataCard1.DataCardValue47"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.承認者_DataCard1.DataCardValue35.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.承認者_DataCard1.DataCardValue35.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.承認者_DataCard1.DataCardValue35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書作成対象部室店_DataCard1.DataCardValue38.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書作成対象部室店_DataCard1.DataCardValue38.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書作成対象部室店_DataCard1.DataCardValue38"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.支店_DataCard1.DataCardValue36.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.支店_DataCard1.DataCardValue36.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.支店_DataCard1.DataCardValue36"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.支社_DataCard1.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.支社_DataCard1.DataCardValue37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.支社_DataCard1.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.出張時を含む_DataCard1.DataCardValue11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.出張時を含む_DataCard1.DataCardValue11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.出張時を含む_DataCard1.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.名阪を含む_DataCard1.DataCardValue31.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.名阪を含む_DataCard1.DataCardValue31.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.名阪を含む_DataCard1.DataCardValue31"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書回付機能_DataCard1.DataCardValue40.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書回付機能_DataCard1.DataCardValue40.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書回付機能_DataCard1.DataCardValue40"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.本部_DataCard1.DataCardValue44.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.本部_DataCard1.DataCardValue44.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.本部_DataCard1.DataCardValue44"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.ローン推進部を含む_DataCard1.DataCardValue9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.ローン推進部を含む_DataCard1.DataCardValue9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.ローン推進部を含む_DataCard1.DataCardValue9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.完了通知要否_DataCard1.DataCardValue33.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.完了通知要否_DataCard1.DataCardValue33.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.完了通知要否_DataCard1.DataCardValue33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書作成者_DataCard1.DataCardValue39.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書作成者_DataCard1.DataCardValue39.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書作成者_DataCard1.DataCardValue39"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書検印者_DataCard1.DataCardValue42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書検印者_DataCard1.DataCardValue42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書検印者_DataCard1.DataCardValue42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書承認者_DataCard1.DataCardValue41.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書承認者_DataCard1.DataCardValue41.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書承認者_DataCard1.DataCardValue41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書閲覧権限_DataCard1.DataCardValue43.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書閲覧権限_DataCard1.DataCardValue43.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.文書閲覧権限_DataCard1.DataCardValue43"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付部室店数_DataCard3.DataCardValue52.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付部室店数_DataCard3.DataCardValue52.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付部室店数_DataCard3.DataCardValue52"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付部室店_DataCard1.DataCardValue29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付部室店_DataCard1.DataCardValue29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付部室店_DataCard1.DataCardValue29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付担当者_DataCard1.DataCardValue27.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付担当者_DataCard1.DataCardValue27.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付担当者_DataCard1.DataCardValue27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付検印者_DataCard1.DataCardValue28.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付検印者_DataCard1.DataCardValue28.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付検印者_DataCard1.DataCardValue28"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付承認者_DataCard1.DataCardValue26.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付承認者_DataCard1.DataCardValue26.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.受付承認者_DataCard1.DataCardValue26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.概要_DataCard1.DataCardValue45.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.概要_DataCard1.DataCardValue45.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.概要_DataCard1.DataCardValue45"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.テンプレート_DataCard1.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.テンプレート_DataCard1.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.テンプレート_DataCard1.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.照会先_DataCard1.DataCardValue46.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.照会先_DataCard1.DataCardValue46.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.照会先_DataCard1.DataCardValue46"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.状況_DataCard2.DataCardValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.状況_DataCard2.DataCardValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard2.Container1.Frm_BasicInformation.状況_DataCard2.DataCardValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemOrderSetting.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemOrderSetting.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemOrderSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemContentsSetting.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemContentsSetting.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemContentsSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Drp_FormItemTypeSetting.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Drp_FormItemTypeSetting.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Drp_FormItemTypeSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemSelectNumberSetting.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemSelectNumberSetting.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Gal_FormItemSetting.Txt_FormItemSelectNumberSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Drp_AddFormItem.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Drp_AddFormItem.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'.Canvas1_1.DataCard3.Drp_AddFormItem"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard1_2.Arr_BackSIFS.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard1_2.Arr_BackSIFS.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard1_2.Arr_BackSIFS"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard1_2.Arr_BackSIFS.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard1_2.Arr_BackSIFS.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard1_2.Arr_BackSIFS"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect.Txt_FormItemSelectValue.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect.Txt_FormItemSelectValue.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Gal_FormItemSelect.Txt_FormItemSelectValue"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Drp_AddFormItem_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Drp_AddFormItem_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Drp_AddFormItem_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Dropdown1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Dropdown1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Select Item Form Screen",
+                "type": "'Select Item Form Screen'.Canvas1_2.DataCard10.Gal_SelectItemSetting.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container12.TextInput1_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container12.TextInput1_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container12.TextInput1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container7.TextInput1_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container7.TextInput1_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container7.TextInput1_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container13.TextInput1_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container13.TextInput1_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container13.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container6.Dropdown1_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container6.Dropdown1_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container6.Dropdown1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container11.Dropdown1_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container11.Dropdown1_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container11.Dropdown1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container5.Container1_3.DatePicker1_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container5.Container1_3.DatePicker1_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container5.Container1_3.DatePicker1_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container5.Container1_3.DatePicker1_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container5.Container1_3.DatePicker1_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container5.Container1_3.DatePicker1_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container10.TextInput1_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container10.TextInput1_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container10.TextInput1_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container4.Container1_2.DatePicker1_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container4.Container1_2.DatePicker1_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container4.Container1_2.DatePicker1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container4.Container1_2.DatePicker1_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container4.Container1_2.DatePicker1_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container4.Container1_2.DatePicker1_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container9.TextInput1_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container9.TextInput1_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container9.TextInput1_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container8.Dropdown1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Form Gallery Screen'.Container8.Dropdown1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Form Gallery Screen",
+                "type": "'Form Gallery Screen'.Container8.Dropdown1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Basic Information Form Screen'"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Basic Information Form Screen'",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Basic Information Form Screen",
+                "type": "'Basic Information Form Screen'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-ScreenHasManyControls",
+          "ruleIndex": 2
+        }
+      ],
+      "tool": {
+        "driver": {
+          "fullName": "PowerApps app checker",
+          "name": "PowerApps app checker",
+          "rules": [
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "app-ScreenHasManyControls",
+              "messageStrings": {
+                "issue": {
+                  "text": "画面上のコントロールが多すぎます"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "画面上のコントロールの数を減らします。",
+                  "アプリを複数の画面に分割して、画面ごとの複雑さを緩和してください。",
+                  "コンポーネントを使用して、複数の画面で同一のグループ化されたコントロールを統合し、重複を減らします。",
+                  "繰り返し使用する類似した一連のコントロールを、ギャラリーを使用して表現します。",
+                  "アプリを複数のアプリに分割して、各アプリのサイズを小さくし、パフォーマンスが高くなるようにします。"
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "各コントロールはリソースを消費するため、画面のコントロールが多すぎると、アプリが低速になったり応答性が悪くなったりする可能性があります。\"Basic Information Form Screen\" の推定複雑度は 416 です。これは、推奨される最大しきい値 (300) を超えています。"
+              }
+            }
+          ],
+          "version": "1.323"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

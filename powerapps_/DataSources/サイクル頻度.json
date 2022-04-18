@@ -1,0 +1,120 @@
+[
+  {
+    "DisplayName": "サイクル頻度 (ビュー)",
+    "Name": "_ms_cyclefrequency_views",
+    "RelatedEntityName": "サイクル頻度",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "4c8ee47e-0258-48e6-819d-e77244e49d79": "サイクル頻度の高度な検索ビュー",
+      "83de24eb-d362-4413-8c6d-a9365fb9c1e3": "サイクル頻度検索ダイアログ ビュー",
+      "adb0a21c-2ee5-4d2d-8f2e-365113bd4258": "アクティブなサイクル頻度",
+      "b8b2ff12-1345-4e6a-b803-c9bb7b282c99": "非アクティブなサイクル頻度",
+      "d4e8b5e2-95b3-4630-91b7-d93f92a84769": "サイクル頻度関連ビュー"
+    }
+  },
+  {
+    "DisplayName": "状態 (サイクル頻度)",
+    "Name": "ms_cyclefrequency_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "アクティブ",
+      "1": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "サイクル頻度"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "サイクル頻度",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ステータス (サイクル頻度)",
+    "Name": "ms_cyclefrequency_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "アクティブ",
+      "2": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "サイクル頻度"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "サイクル頻度",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "サイクル指定（削除） (サイクル頻度)",
+    "Name": "ms_ms_cyclefrequency_cyclespecification",
+    "OptionSetInfoNameMapping": {
+      "0": "サイクル指定なし",
+      "1": "サイクル指定あり"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ms_cyclespecification",
+        "OptionSetReferenceEntityName": "サイクル頻度"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ms_cyclespecification",
+    "RelatedEntityName": "サイクル頻度",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "ms_cyclefrequencies",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "ms_cyclefrequency",
+    "MaxGetRowsCount": 500,
+    "Name": "サイクル頻度",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "所有者",
+      "createdby": "作成者",
+      "createdon": "作成日",
+      "createdonbehalfby": "作成者 (代理)",
+      "importsequencenumber": "インポート シーケンス番号",
+      "modifiedby": "修正者",
+      "modifiedon": "修正日",
+      "modifiedonbehalfby": "修正者 (代理)",
+      "ms_BasicInformation_cycleFrequency_ms_cyc": "基本情報",
+      "ms_cyclefrequency_AsyncOperations": "システム ジョブ ",
+      "ms_cyclefrequency_BulkDeleteFailures": "一括削除の失敗 ",
+      "ms_cyclefrequency_DuplicateBaseRecord": "レコードの重複  (ms_cyclefrequency_DuplicateBaseRecord)",
+      "ms_cyclefrequency_DuplicateMatchingRecord": "レコードの重複  (ms_cyclefrequency_DuplicateMatchingRecord)",
+      "ms_cyclefrequency_MailboxTrackingFolders": "メールボックス自動追跡フォルダー",
+      "ms_cyclefrequency_PrincipalObjectAttributeAccesses": "フィールド共有 ",
+      "ms_cyclefrequency_ProcessSession": "プロセス セッション",
+      "ms_cyclefrequency_SyncErrors": "同期エラー",
+      "ms_cyclefrequencyid": "サイクル頻度",
+      "ms_cycleselect": "サイクル指定",
+      "ms_cyclespecification": "サイクル指定（削除）",
+      "ms_name": "頻度種類",
+      "overriddencreatedon": "レコード作成日",
+      "owningbusinessunit": "所属部署",
+      "owningteam": "所有チーム",
+      "owninguser": "所有ユーザー",
+      "statecode": "状態",
+      "statuscode": "ステータス",
+      "timezoneruleversionnumber": "タイム ゾーン規則のバージョン番号",
+      "utcconversiontimezonecode": "UTC 変換タイム ゾーン コード",
+      "versionnumber": "バージョン番号"
+    },
+    "PreferredName": "サイクル頻度",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

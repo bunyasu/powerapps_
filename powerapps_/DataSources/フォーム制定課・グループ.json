@@ -1,0 +1,99 @@
+[
+  {
+    "DisplayName": "フォーム制定課・グループ (ビュー)",
+    "Name": "_ms_formenactmentgroup_views",
+    "RelatedEntityName": "フォーム制定課・グループ",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5a254ec9-f5e8-4179-9e7a-77beb4e4df25": "フォーム制定課・グループ関連ビュー",
+      "5ba8c5f1-9e20-447a-a92c-2fdabb79d937": "非アクティブなフォーム制定課・グループ",
+      "7f971f0a-6f9f-4ef5-8fc9-63dde1b8f37c": "フォーム制定課・グループ検索ダイアログ ビュー",
+      "a1238ce3-3f2e-4dfc-8907-d8798dd232e8": "フォーム制定課・グループの高度な検索ビュー",
+      "f0245503-b38c-4ea2-97c8-ec35e92484bc": "アクティブなフォーム制定課・グループ"
+    }
+  },
+  {
+    "DisplayName": "状態 (フォーム制定課・グループ)",
+    "Name": "ms_formenactmentgroup_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "アクティブ",
+      "1": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "フォーム制定課・グループ"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "フォーム制定課・グループ",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ステータス (フォーム制定課・グループ)",
+    "Name": "ms_formenactmentgroup_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "アクティブ",
+      "2": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "フォーム制定課・グループ"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "フォーム制定課・グループ",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "ms_formenactmentgroups",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "ms_formenactmentgroup",
+    "MaxGetRowsCount": 500,
+    "Name": "フォーム制定課・グループ",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "所有者",
+      "createdby": "作成者",
+      "createdon": "作成日",
+      "createdonbehalfby": "作成者 (代理)",
+      "importsequencenumber": "インポート シーケンス番号",
+      "modifiedby": "修正者",
+      "modifiedon": "修正日",
+      "modifiedonbehalfby": "修正者 (代理)",
+      "ms_BasicInformation_formenactmentgroup_ms": "基本情報",
+      "ms_formenactmentgroup_AsyncOperations": "システム ジョブ ",
+      "ms_formenactmentgroup_BulkDeleteFailures": "一括削除の失敗 ",
+      "ms_formenactmentgroup_DuplicateBaseRecord": "レコードの重複  (ms_formenactmentgroup_DuplicateBaseRecord)",
+      "ms_formenactmentgroup_DuplicateMatchingRecord": "レコードの重複  (ms_formenactmentgroup_DuplicateMatchingRecord)",
+      "ms_formenactmentgroup_MailboxTrackingFolders": "メールボックス自動追跡フォルダー",
+      "ms_formenactmentgroup_PrincipalObjectAttributeAccesses": "フィールド共有 ",
+      "ms_formenactmentgroup_ProcessSession": "プロセス セッション",
+      "ms_formenactmentgroup_SyncErrors": "同期エラー",
+      "ms_formenactmentgroupid": "フォーム制定課・グループ",
+      "ms_formenactmentstore": "フォーム制定部室店",
+      "ms_name": "フォーム制定課・グループ名",
+      "overriddencreatedon": "レコード作成日",
+      "owningbusinessunit": "所属部署",
+      "owningteam": "所有チーム",
+      "owninguser": "所有ユーザー",
+      "statecode": "状態",
+      "statuscode": "ステータス",
+      "timezoneruleversionnumber": "タイム ゾーン規則のバージョン番号",
+      "utcconversiontimezonecode": "UTC 変換タイム ゾーン コード",
+      "versionnumber": "バージョン番号"
+    },
+    "PreferredName": "フォーム制定課・グループ",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

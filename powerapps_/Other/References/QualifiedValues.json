@@ -1,0 +1,59 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_ms_basicinformation_forms",
+      "Namespace": "基本情報 (フォーム)",
+      "Values": {
+        "情報": "ff614468-56c1-452b-8c62-a23993652f7e"
+      }
+    },
+    {
+      "Kind": "default.cds_ms_formenactmentgroup_forms",
+      "Namespace": "フォーム制定課・グループ (フォーム)",
+      "Values": {
+        "フォーム制定課・グループ メイン フォーム": "2e030234-bbb4-ec11-983e-002248e7d279",
+        "情報": "c7702384-5528-4f6d-b08c-fdc20acbbea5"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "ユーザー  (フォーム)",
+      "Values": {
+        "アプリケーション ユーザー": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "ユーザー": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "ユーザー フォーム – ビジネス": "c2413504-7eb2-4c59-a087-95d819866114",
+        "ユーザー階層のタイル フォーム": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452",
+        "情報": "094fb08a-77bb-49e0-b7ea-8dbddfd01294"
+      }
+    },
+    {
+      "Kind": "default.cds_ms_department_forms",
+      "Namespace": "本部 (フォーム)",
+      "Values": {
+        "情報": "eb1207ce-02ba-4e6b-a055-5f314974218f"
+      }
+    },
+    {
+      "Kind": "default.cds_ms_cyclefrequency_forms",
+      "Namespace": "サイクル頻度 (フォーム)",
+      "Values": {
+        "サイクル頻度 メイン フォーム": "6eac7325-bab4-ec11-983e-002248e7d279",
+        "情報": "8b659429-b4ac-4a62-a5f0-ee0bb73d09db"
+      }
+    },
+    {
+      "Kind": "default.cds_ms_formitemsetting_forms",
+      "Namespace": "項目定義 (フォーム)",
+      "Values": {
+        "情報": "93dc9153-6769-4956-96a1-71ee566acd20"
+      }
+    },
+    {
+      "Kind": "default.cds_ms_formselectitem_forms",
+      "Namespace": "選択肢列 (フォーム)",
+      "Values": {
+        "情報": "a3c235d5-7209-4c57-b9a8-e8dd7d3fd95a"
+      }
+    }
+  ]
+}
