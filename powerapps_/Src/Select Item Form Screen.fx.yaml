@@ -227,11 +227,13 @@
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
+                        /*
                         Patch(
                             基本情報,
                             loc_LastSubmit,
                             {状況: 状況.承認待ち}
                         );
+                        */
                         ForAll(
                             col_formItem As Local,
                             If(
@@ -982,4 +984,10 @@
                     X: =476
                     Y: =40
                     ZIndex: =4
+
+    Button6 As button:
+        Text: ="ボタン"
+        X: =118
+        Y: =18
+        ZIndex: =9
 

@@ -3739,7 +3739,7 @@
 
                         DataCardValue3 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            Default: =//Switch(gbl_formStatus,"承認待ち",状況.承認待ち,"ドラフト",状況.ドラフト,"公開中",状況.公開中,"公開前",状況.公開前,状況.公開終了)
+                            Default: =//gbl_formStatus
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
