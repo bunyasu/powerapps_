@@ -1,5 +1,5 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://japan-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="フォーム制定部承認通知WF" xmlns="http://wadl.dev.java.net/2009/02">
-  <doc title="フォーム制定部　承認通知WF" />
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://japan-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="フォーム制定部室店承認完了通知WF" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="フォーム制定部室店 承認完了通知WF" />
   <grammars>
     <jsonTypes targetNamespace="https://japan-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
       <string name="ManualTriggerInput_text_def" />

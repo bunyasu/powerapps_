@@ -1,0 +1,9 @@
+[
+  {
+    "AddinConnectorId": "7c71ade1-8223-4f34-b654-5adf14bd0736",
+    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
+    "Name": "フォーム制定部室店承認完了通知WF",
+    "ServiceKind": "AddinWadl",
+    "Type": "ServiceInfo"
+  }
+]

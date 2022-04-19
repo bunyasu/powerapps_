@@ -227,13 +227,6 @@
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
-                        /*
-                        Patch(
-                            基本情報,
-                            loc_LastSubmit,
-                            {状況: 状況.承認待ち}
-                        );
-                        */
                         ForAll(
                             col_formItem As Local,
                             If(
@@ -408,7 +401,7 @@
                                 )
                             )
                         );
-                        フォーム制定部承認通知WF.Run(loc_LastSubmit.フォームNo);
+                        フォーム制定部室店承認通知WF.Run(loc_LastSubmit.フォームNo);
                         Navigate('Form Gallery Screen',Fade)
                     Text: ="申請"
                     Visible: =Text(DataCardValue3.Selected.Value) <> "承認待ち"
@@ -610,11 +603,13 @@
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
+                        /*
                         Patch(
                             基本情報,
                             loc_LastSubmit,
                             {状況: 状況.ドラフト}
                         );
+                        */
                         ForAll(
                             col_formItem As Local,
                             If(
@@ -800,11 +795,6 @@
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
-                        Patch(
-                            基本情報,
-                            loc_LastSubmit,
-                            {状況: 状況.公開中}
-                        );
                         ForAll(
                             col_formItem As Local,
                             If(
@@ -979,10 +969,18 @@
                                 )
                             )
                         );
+                        フォーム制定部室店承認完了通知WF.Run(loc_LastSubmit.フォームNo);
                         Navigate('Form Gallery Screen',Fade)
                     Text: ="承認"
                     Visible: =Text(DataCardValue3.Selected.Value) = "承認待ち"
                     X: =476
                     Y: =40
                     ZIndex: =4
+
+    Button5 As button:
+        OnSelect: =
+        Text: ="ボタン"
+        X: =133
+        Y: =18
+        ZIndex: =9
 
