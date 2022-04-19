@@ -13,6 +13,12 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385": {
+          "value": "shared_commondataserviceforapps"
+        },
+        "9662a1ec-b71e-4367-9d98-c81844918744": {
+          "value": "shared_teams"
+        },
         "workflowEntityId": {
           "value": "6419d9b0-98bf-ec11-983e-002248683086"
         },
@@ -21,6 +27,12 @@
         }
       },
       "parameterHintsV2": {
+        "shared_commondataserviceforapps": {
+          "value": "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385"
+        },
+        "shared_teams": {
+          "value": "9662a1ec-b71e-4367-9d98-c81844918744"
+        },
         "workflowEntityId": {
           "value": "6419d9b0-98bf-ec11-983e-002248683086"
         },
@@ -93,6 +105,12 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385": {
+          "value": "shared_commondataserviceforapps"
+        },
+        "9662a1ec-b71e-4367-9d98-c81844918744": {
+          "value": "shared_teams"
+        },
         "workflowEntityId": {
           "value": "a3e68bd4-97bf-ec11-983e-002248683086"
         },
@@ -101,6 +119,12 @@
         }
       },
       "parameterHintsV2": {
+        "shared_commondataserviceforapps": {
+          "value": "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385"
+        },
+        "shared_teams": {
+          "value": "9662a1ec-b71e-4367-9d98-c81844918744"
+        },
         "workflowEntityId": {
           "value": "a3e68bd4-97bf-ec11-983e-002248683086"
         },

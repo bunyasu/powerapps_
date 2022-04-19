@@ -977,10 +977,3 @@
                     Y: =40
                     ZIndex: =4
 
-    Button5 As button:
-        OnSelect: =
-        Text: ="ボタン"
-        X: =133
-        Y: =18
-        ZIndex: =9
-
