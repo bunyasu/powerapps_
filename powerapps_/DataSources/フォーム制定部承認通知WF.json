@@ -1,0 +1,9 @@
+[
+  {
+    "AddinConnectorId": "59a8050b-88bf-47b9-b1db-cd24890b14d6",
+    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
+    "Name": "フォーム制定部承認通知WF",
+    "ServiceKind": "AddinWadl",
+    "Type": "ServiceInfo"
+  }
+]

@@ -408,6 +408,7 @@
                                 )
                             )
                         );
+                        フォーム制定部承認通知WF.Run(loc_LastSubmit.フォームNo);
                         Navigate('Form Gallery Screen',Fade)
                     Text: ="申請"
                     Visible: =Text(DataCardValue3.Selected.Value) <> "承認待ち"
@@ -984,10 +985,4 @@
                     X: =476
                     Y: =40
                     ZIndex: =4
-
-    Button6 As button:
-        Text: ="ボタン"
-        X: =118
-        Y: =18
-        ZIndex: =9
 

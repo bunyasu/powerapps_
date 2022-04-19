@@ -1,1 +1,80 @@
-{}
+{
+  "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps/connections/shared-commondataser-1ea1ab53-a9a9-4b73-b728-d927114f6b66",
+    "connectionParameters": {
+      "sku": "Enterprise",
+      "token:grantType": "code"
+    },
+    "connectionRef": {
+      "displayName": "Microsoft Dataverse",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1566/1.0.1566.2741/commondataserviceforapps/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "f8dfe2ca-d270-40ff-aea0-419c8971e821"
+    ],
+    "id": "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385"
+  },
+  "9662a1ec-b71e-4367-9d98-c81844918744": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-0b646d3b-a787-458d-9a2a-e2af7fefe224",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1568/1.0.1568.2756/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "f8dfe2ca-d270-40ff-aea0-419c8971e821"
+    ],
+    "id": "9662a1ec-b71e-4367-9d98-c81844918744"
+  },
+  "f8dfe2ca-d270-40ff-aea0-419c8971e821": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/944eb6a21f6a0b81768e53c42106d885-e8623b9ee3bdf13e",
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-27.japaneast.logic.azure.com:443/workflows/ef4dc66193364197a503506088877eb5/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=RkMwV8pz8ea8Ou-t57r9agK1RSaK_KLye2lBCvI3E7E",
+      "workflowEndpoint": "/subscriptions/34eedfbf-3e33-475d-b510-23537fba3dc9/resourceGroups/11f9a5def5994bad864dbb5bea6da549-e19ac8de4fe34006a8c72c4a08753131-env/providers/Microsoft.Logic/workflows/944eb6a2-1f6a-0b81-768e-53c42106d885",
+      "workflowEntityId": "08fecb6d-8dbf-ec11-983e-002248683086",
+      "workflowName": "944eb6a2-1f6a-0b81-768e-53c42106d885",
+      "workflowPath": "/subscriptions/34eedfbf-3e33-475d-b510-23537fba3dc9/resourceGroups/11f9a5def5994bad864dbb5bea6da549-e19ac8de4fe34006a8c72c4a08753131-env/providers/Microsoft.Logic/workflows/944eb6a2-1f6a-0b81-768e-53c42106d885"
+    },
+    "connectionRef": {
+      "displayName": "ロジック フロー",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "08fecb6d-8dbf-ec11-983e-002248683086"
+        },
+        "workflowName": {
+          "value": "944eb6a2-1f6a-0b81-768e-53c42106d885"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "08fecb6d-8dbf-ec11-983e-002248683086"
+        },
+        "workflowName": {
+          "value": "944eb6a2-1f6a-0b81-768e-53c42106d885"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "フォーム制定部承認通知WF"
+    ],
+    "dependencies": {
+      "shared_commondataserviceforapps": "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385",
+      "shared_teams": "9662a1ec-b71e-4367-9d98-c81844918744"
+    },
+    "dependents": [],
+    "id": "f8dfe2ca-d270-40ff-aea0-419c8971e821"
+  }
+}
