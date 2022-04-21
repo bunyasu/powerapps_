@@ -136,6 +136,7 @@
 
                     Lbl_FormItemSelect As label:
                         BorderColor: =RGBA(90, 90, 90, 1)
+                        Color: =RGBA(90, 90, 90, 1)
                         Height: =159
                         OnSelect: =Select(Parent)
                         Text: ="■　選択肢"

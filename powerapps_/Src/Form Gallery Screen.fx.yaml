@@ -1,14 +1,18 @@
 "'Form Gallery Screen' As screen":
 
     DataTable1 As dataTable.datatable:
+        BorderColor: =RGBA(90, 90, 90, 1)
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =175
+        HeadingFill: =RGBA(90, 90, 90, 1)
+        Height: =333
+        HoverFill: =RGBA(90, 90, 90, 1)
         Items: =基本情報
+        SelectedFill: =RGBA(230, 230, 230, 1)
         Width: =1366
         X: =0
-        Y: =525
+        Y: =435
         ZIndex: =1
 
         "'フォームNo列(_C)1' As dataTableColumn.textualColumn":
@@ -151,8 +155,27 @@
             Y: =0
             ZIndex: =10
 
+    lbl_HeaderFGS As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(218, 48, 27, 1)
+        Height: =80
+        PaddingLeft: =100
+        Size: =25
+        Text: ="作成フォーム一覧"
+        Width: =1366
+        ZIndex: =2
+
+    Icon1 As icon.DocumentwithContent:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.View
+        Icon: =Icon.Journal
+        X: =16
+        Y: =6
+        ZIndex: =3
+
     Button2 As button:
-        Fill: =RGBA(90, 90, 90, 1)
+        Color: =RGBA(116, 116, 116, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         OnSelect: |-
             =Concurrent(
                 ClearCollect(
@@ -183,12 +206,13 @@
             );
             Navigate('Basic Information Form Screen', ScreenTransition.Fade);
         Text: ="新規作成"
-        X: =603
-        Y: =435
-        ZIndex: =2
+        X: =946
+        Y: =85
+        ZIndex: =17
 
     Button2_1 As button:
-        Fill: =RGBA(90, 90, 90, 1)
+        Color: =RGBA(116, 116, 116, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         OnSelect: |-
             =Clear(col_formItem);Clear(col_selectItem);
             ForAll(
@@ -240,27 +264,9 @@
                 ScreenTransition.Fade
             )
         Text: ="確認・承認"
-        X: =603
-        Y: =717
-        ZIndex: =3
-
-    lbl_HeaderFGS As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Fill: =RGBA(218, 48, 27, 1)
-        Height: =77
-        PaddingLeft: =100
-        Size: =25
-        Text: ="作成フォーム一覧"
-        Width: =1366
-        ZIndex: =4
-
-    Icon1 As icon.DocumentwithContent:
-        Color: =RGBA(255, 255, 255, 1)
-        DisplayMode: =DisplayMode.View
-        Icon: =Icon.Journal
-        X: =16
-        Y: =6
-        ZIndex: =5
+        X: =1151
+        Y: =85
+        ZIndex: =18
 
     "'Grp Filter Document' As group":
         Height: =5
@@ -272,39 +278,39 @@
         Rectangle1_1 As rectangle:
             BorderColor: =RGBA(90, 90, 90, 1)
             Fill: =RGBA(242, 242, 242, 1)
-            Height: =327
+            Height: =306
             Width: =1366
-            Y: =83
-            ZIndex: =6
+            Y: =129
+            ZIndex: =4
 
         Lbl_Form_1 As label:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(90, 90, 90, 1)
             Fill: =RGBA(90, 90, 90, 1)
-            Height: =43
+            Height: =50
             PaddingLeft: =100
             Text: ="絞込み"
             Width: =1366
-            Y: =83
-            ZIndex: =7
+            Y: =80
+            ZIndex: =5
 
         Icon2_1 As icon.Search:
             BorderColor: =RGBA(90, 90, 90, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
-            Height: =43
+            Height: =50
             Icon: =Icon.Search
             Width: =86
-            Y: =83
-            ZIndex: =8
+            Y: =80
+            ZIndex: =6
 
         Container4 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =40
+            Height: =56
             Width: =600
             X: =741
-            Y: =276
-            ZIndex: =9
+            Y: =315
+            ZIndex: =7
 
             Label3_23 As label:
                 Text: ="利用終了日："
@@ -347,11 +353,11 @@
 
         Container5 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =40
+            Height: =56
             Width: =600
             X: =741
-            Y: =227
-            ZIndex: =10
+            Y: =259
+            ZIndex: =8
 
             Label3_22 As label:
                 Text: ="利用開始日："
@@ -394,11 +400,11 @@
 
         Container6 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =40
+            Height: =56
             Width: =350
             X: =741
-            Y: =176
-            ZIndex: =11
+            Y: =204
+            ZIndex: =9
 
             Label3_21 As label:
                 Text: ="小カテゴリ："
@@ -419,11 +425,11 @@
 
         Container7 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =50
+            Height: =56
             Width: =350
             X: =741
-            Y: =126
-            ZIndex: =12
+            Y: =147
+            ZIndex: =10
 
             Label3_20 As label:
                 Text: ="フォーム名："
@@ -442,10 +448,10 @@
 
         Container8 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =50
+            Height: =56
             X: =16
-            Y: =335
-            ZIndex: =13
+            Y: =371
+            ZIndex: =11
 
             Label3_19 As label:
                 Text: ="絞り込んだ内容を"
@@ -467,11 +473,11 @@
 
         Container9 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =50
+            Height: =56
             Width: =415
             X: =16
-            Y: =285
-            ZIndex: =14
+            Y: =315
+            ZIndex: =12
 
             Label3_18 As label:
                 Text: ="フォーム制定部室店番："
@@ -491,11 +497,11 @@
 
         Container10 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =50
+            Height: =56
             Width: =375
             X: =16
-            Y: =231
-            ZIndex: =15
+            Y: =259
+            ZIndex: =13
 
             Label3_17 As label:
                 Text: ="文書作成部室店番："
@@ -515,10 +521,10 @@
 
         Container11 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =50
+            Height: =56
             X: =16
-            Y: =177
-            ZIndex: =16
+            Y: =204
+            ZIndex: =14
 
             Label3_16 As label:
                 Text: ="大カテゴリ："
@@ -540,11 +546,11 @@
 
         Container12 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =50
+            Height: =56
             Width: =350
             X: =366
-            Y: =126
-            ZIndex: =17
+            Y: =147
+            ZIndex: =15
 
             Label3_11 As label:
                 Text: ="報告書番号："
@@ -563,11 +569,11 @@
 
         Container13 As groupContainer:
             BorderColor: =RGBA(90, 90, 90, 1)
-            Height: =50
+            Height: =56
             Width: =350
             X: =16
-            Y: =127
-            ZIndex: =18
+            Y: =147
+            ZIndex: =16
 
             Label3_10 As label:
                 Text: ="フォームNo："
