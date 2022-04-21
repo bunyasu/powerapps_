@@ -271,6 +271,13 @@
         Y: =85
         ZIndex: =18
 
+    Image1_2 As image:
+        Height: =80
+        Image: =Office365ユーザー.UserPhoto(User().Email)
+        Width: =111
+        X: =1255
+        ZIndex: =19
+
     "'Grp Filter Document' As group":
         Height: =5
         Width: =5

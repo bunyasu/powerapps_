@@ -52,6 +52,24 @@
     "dependents": [],
     "id": "1676797f-b356-41d4-bd1d-d942f9c59f76"
   },
+  "1d1aa155-4251-432d-a321-c253674a6897": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/323e88419b564c9fa7d1f39a2ba8f487",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Office 365 ユーザー",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1563/1.0.1563.2732/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365ユーザー"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1d1aa155-4251-432d-a321-c253674a6897"
+  },
   "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385": {
     "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps/connections/shared-commondataser-1ea1ab53-a9a9-4b73-b728-d927114f6b66",
     "connectionParameters": {

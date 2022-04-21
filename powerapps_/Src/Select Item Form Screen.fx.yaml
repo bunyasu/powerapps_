@@ -1009,3 +1009,10 @@
         Y: =15
         ZIndex: =9
 
+    Image1_4 As image:
+        Height: =77
+        Image: =Office365ユーザー.UserPhoto(User().Email)
+        Width: =117
+        X: =1247
+        ZIndex: =10
+
