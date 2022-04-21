@@ -448,7 +448,7 @@
                         Lbl_BasicInformation_2 As label:
                             Color: =RGBA(255, 255, 255, 1)
                             Fill: =RGBA(90, 90, 90, 1)
-                            Text: ="利用開始日 ~ 終了日"
+                            Text: ="■　利用開始日 ~ 終了日"
                             Width: =Parent.Width
                             ZIndex: =1
 
@@ -3954,7 +3954,7 @@
             Lbl_BasicInformation_1 As label:
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(90, 90, 90, 1)
-                Text: ="項目設定"
+                Text: ="■　項目設定"
                 Width: =Parent.Width
                 ZIndex: =1
 
@@ -4318,7 +4318,7 @@
     Arr_BackBIFS_1 As arrow.backArrow:
         Fill: =RGBA(255, 255, 255, 1)
         OnSelect: =Back()
-        X: =32
-        Y: =16
+        X: =20
+        Y: =13
         ZIndex: =14
 
