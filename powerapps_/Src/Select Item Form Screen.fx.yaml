@@ -54,6 +54,7 @@
                     ZIndex: =7
 
                     Lbl_FormItemContents As label:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="■　項目内容"
@@ -78,6 +79,7 @@
                     ZIndex: =7
 
                     Lbl_FormItemType As label:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="■　項目形態"
@@ -87,6 +89,7 @@
 
                     Lbl_FormItemTypeValue As label:
                         BorderColor: =RGBA(90, 90, 90, 1)
+                        Fill: =RGBA(230, 230, 230, 1)
                         OnSelect: =Select(Parent)
                         Text: =ThisItem.type
                         Width: =981
@@ -126,6 +129,7 @@
                             BorderColor: =RGBA(90, 90, 90, 1)
                             Default: =ThisItem.name
                             HoverBorderColor: =RGBA(90, 90, 90, 1)
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             OnChange: |-
                                 =Patch(col_selectItem,ThisItem,{name:Self.Text});
                             OnSelect: =Select(Parent)
@@ -165,8 +169,10 @@
                     Drp_AddFormItem_1 As dropdown:
                         BorderColor: =RGBA(90, 90, 90, 1)
                         ChevronBackground: =RGBA(90, 90, 90, 1)
+                        ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                         Color: =RGBA(90, 90, 90, 1)
                         Default: =ThisItem.limitCount
+                        HoverFill: =RGBA(230, 230, 230, 1)
                         Items: =Sequence(99,1)
                         OnChange: |-
                             =Patch(col_formItem,ThisItem,{limitCount:Self.Selected.Value})
@@ -198,7 +204,9 @@
                     Dropdown1 As dropdown:
                         BorderColor: =RGBA(90, 90, 90, 1)
                         ChevronBackground: =RGBA(90, 90, 90, 1)
+                        ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                         Default: =ThisItem.limitType
+                        HoverFill: =RGBA(230, 230, 230, 1)
                         Items: =Choices(項目定義.選択肢制御タイプ).Value
                         OnChange: |-
                             =Patch(col_formItem,ThisItem,{limitType:Self.Selected.Value})
@@ -230,6 +238,7 @@
 
                 Button1 As button:
                     Fill: =RGBA(90, 90, 90, 1)
+                    HoverFill: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
@@ -418,6 +427,7 @@
 
                 Button3 As button:
                     Fill: =RGBA(90, 90, 90, 1)
+                    HoverFill: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
@@ -610,6 +620,7 @@
 
                 Button4 As button:
                     Fill: =RGBA(90, 90, 90, 1)
+                    HoverFill: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
@@ -804,6 +815,7 @@
 
                 Button4_1 As button:
                     Fill: =RGBA(90, 90, 90, 1)
+                    HoverFill: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                     OnSelect: |-
                         =SubmitForm(Frm_BasicInformation);
                         UpdateContext({loc_LastSubmit: Frm_BasicInformation.LastSubmit});
