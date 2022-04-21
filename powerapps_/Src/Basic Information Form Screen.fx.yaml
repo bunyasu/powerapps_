@@ -4,7 +4,7 @@
 
     lbl_HeaderBIFS As label:
         Color: =RGBA(255, 255, 255, 1)
-        Fill: =RGBA(56, 96, 178, 1)
+        Fill: =RGBA(218, 48, 27, 1)
         Height: =77
         PaddingLeft: =100
         Size: =25
@@ -57,6 +57,7 @@
             ZIndex: =2
 
             Container1 As groupContainer.verticalAutoLayoutContainer:
+                BorderColor: =RGBA(90, 90, 90, 1)
                 Height: =632
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMode: =LayoutMode.Auto
@@ -77,9 +78,10 @@
                     ZIndex: =2
 
                     DataCard9 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
+                        Fill: =RGBA(90, 90, 90, 1)
                         Height: =60
                         Width: =1366
                         X: =0
@@ -88,7 +90,7 @@
 
                         Lbl_BasicInformation_7 As label:
                             Color: =RGBA(255, 255, 255, 1)
-                            Fill: =RGBA(136, 160, 209, 1)
+                            Fill: =RGBA(90, 90, 90, 1)
                             Height: =60
                             Size: =25
                             Text: ="■　基本情報"
@@ -96,6 +98,7 @@
                             ZIndex: =1
 
                     報告書番号_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_reportno"
                         Default: =ThisItem.報告書番号
@@ -113,6 +116,7 @@
 
                         DataCardKey52 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -164,6 +168,7 @@
                             ZIndex: =4
 
                     フォーム名_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_formname"
                         Default: =ThisItem.フォーム名
@@ -181,6 +186,7 @@
 
                         DataCardKey8 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -194,6 +200,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -232,6 +239,7 @@
                             ZIndex: =4
 
                     大カテゴリ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_parentcategory"
                         Default: =ThisItem.大カテゴリ
@@ -248,6 +256,7 @@
 
                         DataCardKey35 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -258,14 +267,17 @@
 
                         DataCardValue32 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices(大カテゴリ)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -299,6 +311,7 @@
                             ZIndex: =4
 
                     小カテゴリ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_childcategory"
                         Default: =ThisItem.小カテゴリ
@@ -315,6 +328,7 @@
 
                         DataCardKey37 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -325,14 +339,17 @@
 
                         DataCardValue34 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices(小カテゴリ)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -366,6 +383,7 @@
                             ZIndex: =4
 
                     フォーム一覧表示_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_formlistview"
                         Default: =ThisItem.フォーム一覧表示
@@ -382,6 +400,7 @@
 
                         DataCardKey6 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -392,14 +411,17 @@
 
                         DataCardValue6 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('フォーム一覧表示 (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -444,12 +466,13 @@
 
                         Lbl_BasicInformation_2 As label:
                             Color: =RGBA(255, 255, 255, 1)
-                            Fill: =RGBA(136, 160, 209, 1)
+                            Fill: =RGBA(90, 90, 90, 1)
                             Text: ="利用開始日 ~ 終了日"
                             Width: =Parent.Width
                             ZIndex: =1
 
                     サイクル指定_DataCard2 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_cycleselect"
                         Default: =ThisItem.サイクル指定
@@ -466,6 +489,7 @@
 
                         DataCardKey53 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -476,6 +500,7 @@
 
                         DataCardValue50 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -484,6 +509,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -517,6 +543,7 @@
                             ZIndex: =4
 
                     頻度_DataCard1 As typedDataCard.comboBoxEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_cycleFrequency"
                         Default: =ThisItem.頻度
@@ -533,6 +560,7 @@
 
                         DataCardKey51 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -543,6 +571,7 @@
 
                         DataCardValue48 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["ms_name"]
                             DisplayMode: =Parent.DisplayMode
@@ -551,6 +580,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["ms_name"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -584,6 +614,7 @@
                             ZIndex: =4
 
                     利用開始日時_DataCard1 As typedDataCard.dateTimeEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_nocyclestartdate"
                         Default: =ThisItem.利用開始日時
@@ -701,6 +732,7 @@
                             ZIndex: =7
 
                     利用終了日時_DataCard1 As typedDataCard.dateTimeEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_nocycleenddate"
                         Default: =ThisItem.利用終了日時
@@ -818,6 +850,7 @@
                             ZIndex: =7
 
                     利用開始日フラグ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclestartdayflg"
                         Default: =ThisItem.利用開始日フラグ
@@ -886,6 +919,7 @@
                             ZIndex: =4
 
                     利用開始月末フラグ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclestartmonthendflg"
                         Default: =ThisItem.利用開始月末フラグ
@@ -954,6 +988,7 @@
                             ZIndex: =4
 
                     利用開始日_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclestartday"
                         Default: =ThisItem.利用開始日
@@ -1023,6 +1058,7 @@
                             ZIndex: =4
 
                     利用開始時刻_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclestarttime"
                         Default: =ThisItem.利用開始時刻
@@ -1092,6 +1128,7 @@
                             ZIndex: =4
 
                     利用終了月初フラグ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescycleendmonthstartflg"
                         Default: =ThisItem.利用終了月初フラグ
@@ -1160,6 +1197,7 @@
                             ZIndex: =4
 
                     利用終了年月_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescycleendyearmonth"
                         Default: =ThisItem.利用終了年月
@@ -1229,6 +1267,7 @@
                             ZIndex: =4
 
                     利用終了営業日_DataCard1 As typedDataCard.numberEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescycleendbusinessday"
                         Default: =ThisItem.利用終了営業日
@@ -1297,6 +1336,7 @@
                             ZIndex: =4
 
                     利用満了年月_DataCard1 As typedDataCard.dateTimeEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclecompleteyearmonth"
                         Default: =ThisItem.利用満了年月
@@ -1411,6 +1451,7 @@
                             ZIndex: =7
 
                     催促日_DataCard1 As typedDataCard.numberEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_requestday"
                         Default: =ThisItem.催促日
@@ -1427,6 +1468,7 @@
 
                         DataCardKey10 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1441,6 +1483,7 @@
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
                             Format: =TextFormat.Number
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
                             RadiusBottomRight: =0
@@ -1478,6 +1521,7 @@
                             ZIndex: =4
 
                     利用開始月初フラグ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclestartmonthstartflg"
                         Default: =ThisItem.利用開始月初フラグ
@@ -1546,6 +1590,7 @@
                             ZIndex: =4
 
                     利用開始年月_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclestartyearmonth"
                         Default: =ThisItem.利用開始年月
@@ -1615,6 +1660,7 @@
                             ZIndex: =4
 
                     利用開始営業日_DataCard1 As typedDataCard.numberEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescyclestartbusinessday"
                         Default: =ThisItem.利用開始営業日
@@ -1683,6 +1729,7 @@
                             ZIndex: =4
 
                     利用終了日フラグ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescycleenddayflg"
                         Default: =ThisItem.利用終了日フラグ
@@ -1751,6 +1798,7 @@
                             ZIndex: =4
 
                     利用終了月末フラグ_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescycleendmonthendflg"
                         Default: =ThisItem.利用終了月末フラグ
@@ -1819,6 +1867,7 @@
                             ZIndex: =4
 
                     利用終了日_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescycleendday"
                         Default: =ThisItem.利用終了日
@@ -1888,6 +1937,7 @@
                             ZIndex: =4
 
                     利用終了時刻_DataCard1 As typedDataCard.textualEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_yescycleendtime"
                         Default: =ThisItem.利用終了時刻
@@ -1957,6 +2007,7 @@
                             ZIndex: =4
 
                     フォーム制定部室店_DataCard1 As typedDataCard.numberEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_formenactmentstore"
                         Default: =ThisItem.フォーム制定部室店
@@ -1973,6 +2024,7 @@
 
                         DataCardKey7 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1987,6 +2039,7 @@
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
                             Format: =TextFormat.Number
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
                             RadiusBottomRight: =0
@@ -2024,6 +2077,7 @@
                             ZIndex: =4
 
                     "'フォーム制定課・グループ_DataCard1' As typedDataCard.comboBoxEditCard":
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_formenactmentgroup"
                         Default: =ThisItem.'フォーム制定課・グループ'
@@ -2040,6 +2094,7 @@
 
                         DataCardKey5 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2050,13 +2105,16 @@
 
                         DataCardValue5 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["ms_name"]
                             DisplayMode: =Parent.DisplayMode
                             Items: =Choices([@基本情報].ms_formenactmentgroup)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["ms_name"]
                             SearchItems: =Search(Choices([@基本情報].ms_formenactmentgroup),DataCardValue5.SearchText,"ms_name")
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2090,6 +2148,7 @@
                             ZIndex: =4
 
                     起票者_DataCard1 As typedDataCard.comboBoxEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_createuser"
                         Default: |-
@@ -2108,6 +2167,7 @@
 
                         DataCardKey50 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2158,6 +2218,7 @@
                             ZIndex: =4
 
                     承認者_DataCard1 As typedDataCard.comboBoxEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_approvaluser"
                         Default: =ThisItem.承認者
@@ -2174,6 +2235,7 @@
 
                         DataCardKey38 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2184,6 +2246,7 @@
 
                         DataCardValue35 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["fullname"]
                             DisplayMode: =Parent.DisplayMode
@@ -2191,6 +2254,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["fullname"]
                             SearchItems: =Search(Choices([@基本情報].ms_approvaluser),DataCardValue35.SearchText,"fullname")
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2224,6 +2288,7 @@
                             ZIndex: =4
 
                     DataCard5 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
@@ -2235,7 +2300,7 @@
 
                         Lbl_BasicInformation_3 As label:
                             Color: =RGBA(255, 255, 255, 1)
-                            Fill: =RGBA(136, 160, 209, 1)
+                            Fill: =RGBA(90, 90, 90, 1)
                             Height: =60
                             Size: =25
                             Text: ="■　文書作成対象部室店"
@@ -2243,6 +2308,7 @@
                             ZIndex: =1
 
                     文書作成対象部室店_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_documentcreatestore"
                         Default: =ThisItem.文書作成対象部室店
@@ -2259,6 +2325,7 @@
 
                         DataCardKey41 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2269,14 +2336,17 @@
 
                         DataCardValue38 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices(文書作成対象部室店)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2310,6 +2380,7 @@
                             ZIndex: =4
 
                     支店_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_branchoffice"
                         Default: =ThisItem.支店
@@ -2378,6 +2449,7 @@
                             ZIndex: =4
 
                     支社_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_branchcompany"
                         Default: =ThisItem.支社
@@ -2446,6 +2518,7 @@
                             ZIndex: =4
 
                     出張時を含む_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_businesstripflg"
                         Default: =ThisItem.出張時を含む
@@ -2514,6 +2587,7 @@
                             ZIndex: =4
 
                     名阪を含む_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_othercityflg"
                         Default: =ThisItem.名阪を含む
@@ -2582,6 +2656,7 @@
                             ZIndex: =4
 
                     文書回付機能_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_documentrefferingflg"
                         Default: =ThisItem.文書回付機能
@@ -2598,6 +2673,7 @@
 
                         DataCardKey43 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2608,14 +2684,17 @@
 
                         DataCardValue40 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('文書回付機能 (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2649,6 +2728,7 @@
                             ZIndex: =4
 
                     本部_DataCard1 As typedDataCard.comboBoxEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_department"
                         Default: =ThisItem.本部
@@ -2716,6 +2796,7 @@
                             ZIndex: =4
 
                     ローン推進部を含む_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_loanimplementationflg"
                         Default: =ThisItem.ローン推進部を含む
@@ -2784,6 +2865,7 @@
                             ZIndex: =4
 
                     DataCard6 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
@@ -2795,7 +2877,7 @@
 
                         Lbl_BasicInformation_4 As label:
                             Color: =RGBA(255, 255, 255, 1)
-                            Fill: =RGBA(136, 160, 209, 1)
+                            Fill: =RGBA(90, 90, 90, 1)
                             Height: =60
                             Size: =25
                             Text: ="■　回付ルート"
@@ -2803,6 +2885,7 @@
                             ZIndex: =1
 
                     完了通知要否_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_completenotifycationflg"
                         Default: =ThisItem.完了通知要否
@@ -2819,6 +2902,7 @@
 
                         DataCardKey36 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2829,6 +2913,7 @@
 
                         DataCardValue33 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -2837,6 +2922,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2870,6 +2956,7 @@
                             ZIndex: =4
 
                     DataCard7 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
@@ -2881,12 +2968,13 @@
 
                         Lbl_BasicInformation_5 As label:
                             Color: =RGBA(255, 255, 255, 1)
-                            Fill: =RGBA(136, 160, 209, 1)
+                            Fill: =RGBA(90, 90, 90, 1)
                             Text: ="■　回付ルート"
                             Width: =Parent.Width
                             ZIndex: =1
 
                     文書作成者_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_documentcreateuser"
                         Default: =ThisItem.文書作成者
@@ -2903,6 +2991,7 @@
 
                         DataCardKey42 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2913,14 +3002,17 @@
 
                         DataCardValue39 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2954,6 +3046,7 @@
                             ZIndex: =4
 
                     文書検印者_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_documentcheckuser"
                         Default: =ThisItem.文書検印者
@@ -2970,6 +3063,7 @@
 
                         DataCardKey45 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2980,14 +3074,17 @@
 
                         DataCardValue42 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -3021,6 +3118,7 @@
                             ZIndex: =4
 
                     文書承認者_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_documentapprovaluser"
                         Default: =ThisItem.文書承認者
@@ -3037,6 +3135,7 @@
 
                         DataCardKey44 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -3047,14 +3146,17 @@
 
                         DataCardValue41 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -3088,6 +3190,7 @@
                             ZIndex: =4
 
                     文書閲覧権限_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_documentviewpermission"
                         Default: =ThisItem.文書閲覧権限
@@ -3104,6 +3207,7 @@
 
                         DataCardKey46 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -3114,14 +3218,17 @@
 
                         DataCardValue43 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('文書閲覧権限 (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -3158,6 +3265,7 @@
                         AllowedValues: |-
                             =//DataSourceInfo([@基本情報], DataSourceInfo.AllowedValues, "ms_receptionstorenumber")
                             Sequence(9,1)
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_receptionstorenumber"
                         Default: =ThisItem.受付部室店数
@@ -3174,6 +3282,7 @@
 
                         DataCardKey55 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -3184,9 +3293,12 @@
 
                         DataCardValue52 As dropdown:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             Default: =Parent.Default
                             DisplayMode: =Parent.DisplayMode
                             Items: =Parent.AllowedValues
+                            PressedFill: =RGBA(90, 90, 90, 1)
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
                             X: =DataCardKey55.X + DataCardKey55.Width
@@ -3219,6 +3331,7 @@
                             ZIndex: =4
 
                     受付部室店_DataCard1 As typedDataCard.numberEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_receptionstore"
                         Default: =ThisItem.受付部室店
@@ -3235,6 +3348,7 @@
 
                         DataCardKey32 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -3249,6 +3363,7 @@
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
                             Format: =TextFormat.Number
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
                             RadiusBottomRight: =0
@@ -3286,6 +3401,7 @@
                             ZIndex: =4
 
                     受付担当者_DataCard1 As typedDataCard.comboBoxEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_receprionuser"
                         Default: =ThisItem.受付担当者
@@ -3302,6 +3418,7 @@
 
                         DataCardKey30 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -3312,13 +3429,16 @@
 
                         DataCardValue27 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["fullname"]
                             DisplayMode: =Parent.DisplayMode
                             Items: =Choices([@基本情報].ms_receprionuser)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["fullname"]
                             SearchItems: =Search(Choices([@基本情報].ms_receprionuser),DataCardValue27.SearchText,"fullname")
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -3352,6 +3472,7 @@
                             ZIndex: =4
 
                     受付検印者_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_receptioncheckuser"
                         Default: =ThisItem.受付検印者
@@ -3368,6 +3489,7 @@
 
                         DataCardKey31 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -3378,14 +3500,17 @@
 
                         DataCardValue28 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -3419,6 +3544,7 @@
                             ZIndex: =4
 
                     受付承認者_DataCard1 As typedDataCard.comboBoxOptionSetSingleEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_receptionapprovaluser"
                         Default: =ThisItem.受付承認者
@@ -3435,6 +3561,7 @@
 
                         DataCardKey29 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -3445,14 +3572,17 @@
 
                         DataCardValue26 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -3486,6 +3616,7 @@
                             ZIndex: =4
 
                     DataCard8 As typedDataCard.blankCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
@@ -3505,6 +3636,7 @@
                             ZIndex: =1
 
                     概要_DataCard1 As typedDataCard.textualMultiLineEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_summary"
                         Default: =ThisItem.概要
@@ -3573,6 +3705,7 @@
                             ZIndex: =4
 
                     テンプレート_DataCard1 As typedDataCard.fileEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_template"
                         Default: |-
@@ -3644,6 +3777,7 @@
                             ZIndex: =4
 
                     照会先_DataCard1 As typedDataCard.textualMultiLineEditCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_reference"
                         Default: =ThisItem.照会先
@@ -3712,6 +3846,7 @@
                             ZIndex: =4
 
                     状況_DataCard2 As typedDataCard.comboBoxOptionSetSingleViewCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_formstatus"
                         Default: =ThisItem.状況
@@ -3780,6 +3915,7 @@
                             ZIndex: =4
 
                     フォームNo_DataCard1 As typedDataCard.textualViewCard:
+                        BorderColor: =RGBA(90, 90, 90, 1)
                         BorderStyle: =BorderStyle.Solid
                         DataField: ="ms_name"
                         Default: =ThisItem.フォームNo
@@ -3795,6 +3931,7 @@
 
                         DataCardKey1 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
