@@ -13,11 +13,10 @@
         ZIndex: =10
 
     Icon2 As icon.DocumentwithContent:
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(218, 48, 27, 1)
         DisplayMode: =DisplayMode.View
         Icon: =Icon.DocumentWithContent
-        X: =20
-        Y: =6
+        X: =1302
         ZIndex: =12
 
     Canvas1_1 As fluidGrid.fluidGridWithBlankCard:
@@ -26,25 +25,6 @@
         Width: =Parent.Width
         Y: =lbl_HeaderBIFS.Y + lbl_HeaderBIFS.Height
         ZIndex: =13
-
-        DataCard1_1 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            BorderThickness: =0
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =79
-            Width: =Parent.Width
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-            Arr_BackBIFS As arrow.backArrow:
-                Fill: =RGBA(168, 0, 0, 1)
-                OnSelect: =Back()
-                X: =32
-                Y: =16
-                ZIndex: =1
 
         DataCard2 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -2182,6 +2162,7 @@
                             DefaultSelectedItems: =LookUp('ユーザー ',既定電子メール = User().Email)
                             DisplayFields: =["fullname"]
                             DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(230, 230, 230, 1)
                             Items: =Choices([@基本情報].ms_createuser)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["fullname"]
@@ -3937,9 +3918,8 @@
                         ZIndex: =2
 
                         DataCardKey1 As label:
-                            AutoHeight: =true
                             Color: =RGBA(90, 90, 90, 1)
-                            Height: =34
+                            Height: =51
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
                             Wrap: =false
@@ -3948,9 +3928,9 @@
                             ZIndex: =1
 
                         DataCardValue1 As label:
-                            AutoHeight: =true
                             DisplayMode: =Parent.DisplayMode
-                            Height: =27
+                            Fill: =RGBA(230, 230, 230, 1)
+                            Height: =39
                             PaddingLeft: =0
                             PaddingRight: =0
                             PaddingTop: =0
@@ -4000,6 +3980,7 @@
                 ZIndex: =3
 
                 Lbl_FormItem As label:
+                    Color: =RGBA(90, 90, 90, 1)
                     Height: =270
                     OnSelect: =Select(Parent)
                     Text: ="項目"
@@ -4022,6 +4003,7 @@
 
                     Lbl_FormItemOrderSetting As label:
                         BorderColor: =RGBA(90, 90, 90, 1)
+                        Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="項目番号："
                         Width: =98
@@ -4079,6 +4061,7 @@
                     ZIndex: =17
 
                     Lbl_FormItemTypeSetting As label:
+                        Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="項目形態："
                         Width: =98
@@ -4127,6 +4110,7 @@
 
                     Lbl_FormItemRequiredSetting As label:
                         BorderColor: =RGBA(90, 90, 90, 1)
+                        Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="必須："
                         Width: =75
@@ -4154,6 +4138,7 @@
 
                     Lbl_FormItemDeleteSetting As label:
                         BorderColor: =RGBA(90, 90, 90, 1)
+                        Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="削除："
                         Width: =75
@@ -4181,6 +4166,7 @@
 
                     Lbl_FormItemCSVSetting As label:
                         BorderColor: =RGBA(90, 90, 90, 1)
+                        Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="CSV出力項目："
                         X: =941
@@ -4209,6 +4195,7 @@
                     ZIndex: =17
 
                     Lbl_FormItemSelectNumberSetting As label:
+                        Color: =RGBA(90, 90, 90, 1)
                         OnSelect: =Select(Parent)
                         Text: ="選択肢数："
                         Visible: =ThisItem.type <> "自由入力形式" && ThisItem.type <> "添付ファイル形式"
@@ -4282,6 +4269,7 @@
                 ZIndex: =7
 
                 Lbl_AddFormItem As label:
+                    Color: =RGBA(90, 90, 90, 1)
                     Text: ="追加項目数："
                     Width: =115
                     X: =479
@@ -4326,4 +4314,11 @@
                     X: =692
                     Y: =Gal_FormItemSetting.Y + Gal_FormItemSetting.Height + 30
                     ZIndex: =6
+
+    Arr_BackBIFS_1 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        OnSelect: =Back()
+        X: =32
+        Y: =16
+        ZIndex: =14
 
