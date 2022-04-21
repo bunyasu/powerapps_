@@ -994,6 +994,6 @@
         Fill: =RGBA(255, 255, 255, 1)
         OnSelect: =Back()
         X: =20
-        Y: =13
+        Y: =15
         ZIndex: =9
 
