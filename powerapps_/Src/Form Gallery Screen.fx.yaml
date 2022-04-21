@@ -176,6 +176,7 @@
     Button2 As button:
         Color: =RGBA(116, 116, 116, 1)
         Fill: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(90, 90, 90, 100), -20%)
         OnSelect: |-
             =Concurrent(
                 ClearCollect(
@@ -213,6 +214,7 @@
     Button2_1 As button:
         Color: =RGBA(116, 116, 116, 1)
         Fill: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(90, 90, 90, 100), -20%)
         OnSelect: |-
             =Clear(col_formItem);Clear(col_selectItem);
             ForAll(
