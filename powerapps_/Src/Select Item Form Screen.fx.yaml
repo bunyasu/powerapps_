@@ -402,6 +402,7 @@
                             )
                         );
                         フォーム制定部室店承認通知WF.Run(loc_LastSubmit.フォームNo);
+                        Refresh(基本情報);
                         Navigate('Form Gallery Screen',Fade)
                     Text: ="申請"
                     Visible: =Text(DataCardValue3.Selected.Value) <> "承認待ち"
@@ -592,6 +593,7 @@
                                 )
                             )
                         );
+                        Refresh(基本情報);
                         Navigate('Form Gallery Screen',Fade)
                     Text: ="ドラフト"
                     Visible: =Text(DataCardValue3.Selected.Value) <> "承認待ち"
@@ -784,6 +786,7 @@
                                 )
                             )
                         );
+                        Refresh(基本情報);
                         Navigate('Form Gallery Screen',Fade)
                     Text: ="差し戻し"
                     Visible: =Text(DataCardValue3.Selected.Value) = "承認待ち"
@@ -970,6 +973,7 @@
                             )
                         );
                         フォーム制定部室店承認完了通知WF.Run(loc_LastSubmit.フォームNo);
+                        Refresh(基本情報);
                         Navigate('Form Gallery Screen',Fade)
                     Text: ="承認"
                     Visible: =Text(DataCardValue3.Selected.Value) = "承認待ち"

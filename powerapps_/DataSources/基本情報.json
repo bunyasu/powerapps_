@@ -268,26 +268,6 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "サイクル指定（削除） (基本情報)",
-    "Name": "ms_ms_basicinformation_cyclespecification",
-    "OptionSetInfoNameMapping": {
-      "0": "サイクル指定なし",
-      "1": "サイクル指定あり"
-    },
-    "OptionSetIsBooleanValued": true,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "ms_cyclespecification",
-        "OptionSetReferenceEntityName": "基本情報"
-      }
-    },
-    "OptionSetTypeKey": "BooleanType",
-    "RelatedColumnInvariantName": "ms_cyclespecification",
-    "RelatedEntityName": "基本情報",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "文書回付機能 (基本情報)",
     "Name": "ms_ms_basicinformation_documentrefferingflg",
     "OptionSetInfoNameMapping": {

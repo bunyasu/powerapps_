@@ -71,7 +71,7 @@
       "modifiedby": "修正者",
       "modifiedon": "修正日",
       "modifiedonbehalfby": "修正者 (代理)",
-      "ms_documentresult_ms_formSelectItem_ms_fo": "文書結果",
+      "ms_documentresult_ms_formSelectItem_ms_fo": "文書結果（削除）",
       "ms_formselectitem_AsyncOperations": "システム ジョブ ",
       "ms_formselectitem_BulkDeleteFailures": "一括削除の失敗 ",
       "ms_formselectitem_DuplicateBaseRecord": "レコードの重複  (ms_formselectitem_DuplicateBaseRecord)",
