@@ -2102,9 +2102,11 @@
                         DataCardValue5 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["ms_name"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             Items: =Choices([@基本情報].ms_formenactmentgroup)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             PressedFill: =RGBA(90, 90, 90, 1)
@@ -2244,9 +2246,11 @@
                         DataCardValue35 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["fullname"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             Items: =Choices([@基本情報].ms_approvaluser)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["fullname"]
@@ -2334,9 +2338,11 @@
                         DataCardValue38 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices(文書作成対象部室店)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -2682,9 +2688,11 @@
                         DataCardValue40 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('文書回付機能 (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -2911,9 +2919,11 @@
                         DataCardValue33 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('完了通知要否 (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -3000,9 +3010,11 @@
                         DataCardValue39 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -3072,9 +3084,11 @@
                         DataCardValue42 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -3144,9 +3158,11 @@
                         DataCardValue41 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('文書・受付')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -3216,9 +3232,11 @@
                         DataCardValue43 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('文書閲覧権限 (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -3291,8 +3309,10 @@
                         DataCardValue52 As dropdown:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             Default: =Parent.Default
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             Items: =Parent.AllowedValues
                             PressedFill: =RGBA(90, 90, 90, 1)
                             SelectionFill: =RGBA(90, 90, 90, 1)
