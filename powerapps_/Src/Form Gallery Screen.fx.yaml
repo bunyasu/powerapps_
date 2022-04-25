@@ -8,7 +8,7 @@
         HeadingFill: =RGBA(90, 90, 90, 1)
         Height: =333
         HoverFill: =RGBA(230, 230, 230, 1)
-        Items: =基本情報
+        Items: =SortByColumns(基本情報, "ms_name", Descending)
         SelectedColor: =RGBA(230, 230, 230, 1)
         SelectedFill: =RGBA(230, 230, 230, 1)
         Width: =1366
