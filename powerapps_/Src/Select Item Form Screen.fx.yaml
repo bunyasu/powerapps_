@@ -12,7 +12,9 @@
 
     Canvas1_2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =Parent.Height - Self.Y
+        Height: |-
+            =//Parent.Height - Self.Y
+            365 * CountRows(col_formItem) + 100
         Width: =Parent.Width
         Y: =lbl_HeaderSIFS.Y + lbl_HeaderSIFS.Height
         ZIndex: =8
