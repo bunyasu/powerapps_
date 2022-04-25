@@ -3648,7 +3648,7 @@
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@基本情報],DataSourceInfo.DisplayName,"ms_receptionapprovaluser")
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =100
+                        Height: =60
                         Required: =false
                         Update: =DataCardValue26.Selected.Value
                         Width: =1366
@@ -3742,7 +3742,7 @@
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@基本情報],DataSourceInfo.DisplayName,"ms_summary")
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =190
+                        Height: =120
                         Required: =false
                         Update: =DataCardValue45.Text
                         Width: =1366
@@ -3838,7 +3838,7 @@
                             AddAttachmentText: ="ファイルのアップロード"
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                             DisplayMode: =Parent.DisplayMode
-                            Height: =170
+                            Height: =100
                             HoverFill: =RGBA(230, 230, 230, 1)
                             IsInDataCard: =true
                             ItemFill: =RGBA(90, 90, 90, 100)
@@ -3891,7 +3891,7 @@
                         DisplayMode: =Parent.DisplayMode
                         DisplayName: =DataSourceInfo([@基本情報],DataSourceInfo.DisplayName,"ms_reference")
                         Fill: =RGBA(0, 0, 0, 0)
-                        Height: =50
+                        Height: =132
                         Required: =false
                         Update: =DataCardValue46.Text
                         Width: =1366
@@ -3915,7 +3915,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
-                            Height: =80
+                            Height: =100
                             HoverBorderColor: =RGBA(90, 90, 90, 1)
                             HoverFill: =RGBA(230, 230, 230, 1)
                             Mode: =TextMode.MultiLine
