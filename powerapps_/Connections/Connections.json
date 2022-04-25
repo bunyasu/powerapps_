@@ -1,6 +1,6 @@
 {
   "1676797f-b356-41d4-bd1d-d942f9c59f76": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/4b75a3c152e934999f1064c9e544fdcb-971fd543b926bdff",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/4b75a3c152e934999f1064c9e544fdcb-e8623b9ee3bdf13e",
     "connectionParameters": {
       "workFlowCallbackUri": "https://prod-01.japaneast.logic.azure.com:443/workflows/43874afb83454d1699ea41efe4d0583f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8k2ReY1aDv0-XRhT0jqH6aP7zphTgLGUGw6oIKJlREE",
       "workflowEndpoint": "/subscriptions/34eedfbf-3e33-475d-b510-23537fba3dc9/resourceGroups/11f9a5def5994bad864dbb5bea6da549-e19ac8de4fe34006a8c72c4a08753131-env/providers/Microsoft.Logic/workflows/4b75a3c1-52e9-3499-9f10-64c9e544fdcb",
@@ -53,7 +53,7 @@
     "id": "1676797f-b356-41d4-bd1d-d942f9c59f76"
   },
   "1d1aa155-4251-432d-a321-c253674a6897": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/304fd0f667644f6ba4196d640b4f8295",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/323e88419b564c9fa7d1f39a2ba8f487",
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -71,9 +71,10 @@
     "id": "1d1aa155-4251-432d-a321-c253674a6897"
   },
   "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps/connections/0d893c9b6c284f1f91483ddcdd2b6ab2",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps/connections/shared-commondataser-1ea1ab53-a9a9-4b73-b728-d927114f6b66",
     "connectionParameters": {
-      "sku": "Enterprise"
+      "sku": "Enterprise",
+      "token:grantType": "code"
     },
     "connectionRef": {
       "displayName": "Microsoft Dataverse",
@@ -90,7 +91,7 @@
     "id": "57f1b83e-8ad4-4f4c-a6ca-ebabf08ba385"
   },
   "9662a1ec-b71e-4367-9d98-c81844918744": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_teams/connections/94a6578f178143b78e920102c54bb235",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_teams/connections/shared-teams-0b646d3b-a787-458d-9a2a-e2af7fefe224",
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -109,7 +110,7 @@
     "id": "9662a1ec-b71e-4367-9d98-c81844918744"
   },
   "ccadeed5-8d61-42f9-b5ab-e1a4804481a7": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/01d1d736154d1e7be317790cdafbae02-971fd543b926bdff",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/01d1d736154d1e7be317790cdafbae02-e8623b9ee3bdf13e",
     "connectionParameters": {
       "workFlowCallbackUri": "https://prod-02.japaneast.logic.azure.com:443/workflows/3d97358ef43a415eb47afe7da8283053/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Yq5-Z3Zg9J2fnZH4T-74PjAuARmM4TPxj3K8g96T1ok",
       "workflowEndpoint": "/subscriptions/34eedfbf-3e33-475d-b510-23537fba3dc9/resourceGroups/11f9a5def5994bad864dbb5bea6da549-e19ac8de4fe34006a8c72c4a08753131-env/providers/Microsoft.Logic/workflows/01d1d736-154d-1e7b-e317-790cdafbae02",

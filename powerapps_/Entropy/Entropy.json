@@ -243,6 +243,9 @@
     "Image1_3": 5,
     "Image1_4": 326,
     "Label1": 342,
+    "Label1_2": 417,
+    "Label1_3": 418,
+    "Label1_4": 419,
     "Label2": 344,
     "Label3_10": 367,
     "Label3_11": 370,
@@ -418,7 +421,7 @@
     "頻度_DataCard1": 49
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "04/25/2022 02:27:21",
+  "HeaderLastSavedDateTimeUTC": "04/25/2022 09:15:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -851,6 +854,9 @@
     "Image1_3": 60,
     "Image1_4": 380,
     "Label1": 399,
+    "Label1_2": 3,
+    "Label1_3": 3,
+    "Label1_4": 3,
     "Label2": 402,
     "Label3_10": 10,
     "Label3_11": 13,
@@ -1030,7 +1036,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 8.56684,
+    "AnalysisLoadTime": 7.6697491,
     "ControlCount": {
       "arrow": 2,
       "attachments": 1,
@@ -1050,13 +1056,13 @@
       "groupContainer": 13,
       "icon": 4,
       "image": 3,
-      "label": 201,
+      "label": 204,
       "rectangle": 2,
       "screen": 3,
       "text": 24,
       "typedDataCard": 58
     },
-    "DeserializationLoadTime": 5.5942777,
+    "DeserializationLoadTime": 5.7731129,
     "ErrorCount": 0
   }
 }
