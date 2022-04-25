@@ -600,3 +600,13 @@
                 Y: =5
                 ZIndex: =2
 
+    Icon3 As icon.Reload:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =40
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(基本情報)
+        Width: =25
+        X: =1329
+        Y: =435
+        ZIndex: =20
+
