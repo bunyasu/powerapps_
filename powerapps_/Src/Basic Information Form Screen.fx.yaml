@@ -111,6 +111,8 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -867,6 +869,7 @@
 
                         DataCardKey24 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -877,14 +880,19 @@
 
                         DataCardValue22 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('利用開始日フラグ (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -936,6 +944,7 @@
 
                         DataCardKey27 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -946,14 +955,17 @@
 
                         DataCardValue24 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('利用開始月初フラグ (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -1005,6 +1017,7 @@
 
                         DataCardKey28 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1015,14 +1028,17 @@
 
                         DataCardValue25 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('利用開始月末フラグ (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
