@@ -13,8 +13,8 @@
     Canvas1_2 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
         Height: |-
-            =//Parent.Height - Self.Y
-            DataCard10.Height + DataCard11.Height
+            =Parent.Height - Self.Y
+            //DataCard10.Height + DataCard11.Height
         Width: =Parent.Width
         Y: =lbl_HeaderSIFS.Y + lbl_HeaderSIFS.Height
         ZIndex: =8
