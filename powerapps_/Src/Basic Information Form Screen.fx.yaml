@@ -39,7 +39,7 @@
 
             Container1 As groupContainer.verticalAutoLayoutContainer:
                 BorderColor: =RGBA(90, 90, 90, 1)
-                Height: =632
+                Height: =2250
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMode: =LayoutMode.Auto
                 Width: =1366
@@ -50,7 +50,7 @@
                     DataSource: =基本情報
                     Height: =639
                     Item: =LookUp(基本情報,フォームNo = DataTable1.Selected.フォームNo)
-                    LayoutMinHeight: =250
+                    LayoutMinHeight: =1500
                     LayoutMinWidth: =400
                     NumberOfColumns: =2
                     OnSuccess: =ResetForm(Frm_BasicInformation);
