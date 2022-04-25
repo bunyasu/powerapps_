@@ -1091,6 +1091,7 @@
 
                         DataCardKey22 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1104,6 +1105,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1161,6 +1163,7 @@
 
                         DataCardKey23 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1174,6 +1177,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1230,6 +1234,7 @@
 
                         DataCardKey21 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1244,6 +1249,7 @@
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
                             Format: =TextFormat.Number
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
                             RadiusBottomRight: =0
@@ -1300,6 +1306,7 @@
 
                         DataCardKey26 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1313,6 +1320,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1369,6 +1377,7 @@
 
                         DataCardKey16 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1379,14 +1388,18 @@
 
                         DataCardValue15 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
                             IsSearchable: =false
                             Items: =Choices('利用終了日フラグ (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -1438,6 +1451,7 @@
 
                         DataCardKey19 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1448,6 +1462,8 @@
 
                         DataCardValue17 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1456,6 +1472,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -1507,6 +1524,7 @@
 
                         DataCardKey20 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1517,6 +1535,8 @@
 
                         DataCardValue18 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1525,6 +1545,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -1577,6 +1598,7 @@
 
                         DataCardKey14 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1590,6 +1612,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1647,6 +1670,7 @@
 
                         DataCardKey15 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1660,6 +1684,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1716,6 +1741,7 @@
 
                         DataCardKey13 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1730,6 +1756,7 @@
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
                             Format: =TextFormat.Number
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
                             RadiusBottomRight: =0
@@ -1786,6 +1813,7 @@
 
                         DataCardKey18 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1799,6 +1827,7 @@
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            HoverBorderColor: =RGBA(90, 90, 90, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5
                             RadiusBottomLeft: =0
@@ -1855,6 +1884,7 @@
 
                         DataCardKey12 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -1868,6 +1898,7 @@
                             DefaultDate: =Parent.Default
                             DisplayMode: =Parent.DisplayMode
                             EndYear: =Year(Today())+100
+                            IconBackground: =RGBA(90, 90, 90, 100)
                             IsEditable: =true
                             PaddingBottom: =0
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
@@ -1880,6 +1911,8 @@
 
                         HourValue1 As dropdown:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             Default: =Text(Hour(Parent.Default),"00")
                             DisplayMode: =Parent.DisplayMode
                             Height: =DateValue1.Height
@@ -1888,6 +1921,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             PaddingRight: =5
                             PaddingTop: =5
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             Tooltip: =Parent.DisplayName
                             Width: =DateValue1.Width / 2 - 5
                             X: =DateValue1.X
@@ -1912,6 +1946,8 @@
 
                         MinuteValue1 As dropdown:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             Default: =Text(Minute(Parent.Default),"00")
                             DisplayMode: =Parent.DisplayMode
                             Height: =HourValue1.Height
@@ -1920,6 +1956,7 @@
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             PaddingRight: =5
                             PaddingTop: =5
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             Tooltip: =Parent.DisplayName
                             Width: =HourValue1.Width
                             X: =HourValue1.X + HourValue1.Width + Separator1.Width
