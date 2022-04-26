@@ -2476,6 +2476,7 @@
 
                         DataCardKey39 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2486,12 +2487,16 @@
 
                         DataCardValue36 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices(支店)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
                             SelectMultiple: =false
@@ -2545,6 +2550,7 @@
 
                         DataCardKey40 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2555,14 +2561,19 @@
 
                         DataCardValue37 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices(支社)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2614,6 +2625,7 @@
 
                         DataCardKey47 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2624,13 +2636,18 @@
 
                         DataCardValue44 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["ms_name"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             Items: =Choices([@基本情報].ms_department)
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["ms_name"]
                             SearchItems: =Search(Choices([@基本情報].ms_department),DataCardValue44.SearchText,"ms_name")
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2682,6 +2699,7 @@
 
                         DataCardKey11 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2692,14 +2710,19 @@
 
                         DataCardValue11 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('出張時を含む (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2751,6 +2774,7 @@
 
                         DataCardKey9 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2761,14 +2785,19 @@
 
                         DataCardValue9 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('ローン推進部を含む (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
@@ -2820,6 +2849,7 @@
 
                         DataCardKey34 As label:
                             AutoHeight: =true
+                            Color: =RGBA(90, 90, 90, 1)
                             Height: =34
                             Text: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.4
@@ -2830,14 +2860,19 @@
 
                         DataCardValue31 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            ChevronBackground: =RGBA(90, 90, 90, 1)
+                            ChevronHoverBackground: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                             DefaultSelectedItems: =[Parent.Default]
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
+                            HoverFill: =RGBA(230, 230, 230, 1)
                             IsSearchable: =false
                             Items: =Choices('名阪を含む (基本情報)')
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PressedFill: =RGBA(90, 90, 90, 1)
                             SearchFields: =["Value"]
                             SearchItems: =[]
+                            SelectionFill: =RGBA(90, 90, 90, 1)
                             SelectMultiple: =false
                             Tooltip: =Parent.DisplayName
                             Width: =(Parent.Width - 60) * 0.6
