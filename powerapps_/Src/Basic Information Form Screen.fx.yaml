@@ -4117,6 +4117,7 @@
 
             Btn_SortDeleteFormItem As button:
                 Fill: =RGBA(90, 90, 90, 1)
+                HoverFill: =ColorFade(RGBA(90, 90, 90, 100), -20%)
                 OnSelect: |-
                     =ClearCollect(col_deleteFormItem,Filter(col_formItem,delete));
                     ClearCollect(col_formItem,SortByColumns(Filter(col_formItem,!delete),"order",Ascending))
